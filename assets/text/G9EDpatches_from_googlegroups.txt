@@ -1,0 +1,2159 @@
+G9 text patch list, you may want to use a search tool to find specific patches.
+also note not all Accelerator and Energizer Tube settings are true (0 = ?) as
+some have been converted from G7 patches and some were not given settings.
+===============================================================================
+
+G9EDpatch
+{
+ Name { Idol  }
+ Comment {
+Black Sabbath-The Eternal Idol
+ }
+ PatchLevel { 70 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, Delay TAP }
+ AmpSel { A }
+ AmpA { on, PV Drive, 60, 15, 82, Pre }
+ AmpB { on, Fender Clean, 37, 15, 84, Pre }
+ EQ_A { on, 12, -6, 1, 4, -1, -1 }
+ EQ_B { on, 6, 1, 4, -4, -3, 7 }
+ ZnrA { on, ZNR, 4 }
+ ZnrB { on, ZNR, 4 }
+ Ext { off, 80, 80, 0 }
+ Comp { on, Compressor, 4, Fast, 8, 40 }
+ Wah { on, Z-Oscillator, A1, 8, 0, 0 }
+ Cabi { on, small, center, Dynamic }
+ Mod { on, Chorus, 2, 2, 1, 0 }
+ Del { off, PingPongDelay, 250mS, 20, 8, 20 }
+ Rev { off, PanningDelay, 50mS, 0, 5, L50 }
+ Arrm { 0, 0, 255, 0, 0 }
+ Pedal1 {
+ 1 ( 0, 0, 100, disabled )
+ 2 ( 0, 0, 100, disabled )
+ 3 ( 0, 0, 100, disabled )
+ 4 ( 0, 0, 100, disabled )
+ }
+ Pedal2V {
+ 1 ( 0, 0, 100, disabled )
+ 2 ( 0, 0, 100, disabled )
+ 3 ( 0, 0, 100, disabled )
+ 4 ( 0, 0, 100, disabled )
+ }
+ Pedal2H {
+ 1 ( 0, 0, 100 )
+ 2 ( 0, 0, 100 )
+ 3 ( 0, 0, 100 )
+ 4 ( 0, 0, 100 )
+ }
+}
+Accelerator Tube 6, Solid State 6
+Energizer Tube 5, Boost 6
+---------------------------------------------------
+G9EDpatch
+{
+ Name { P-FLOYD }
+ Comment {
+ }
+ PatchLevel { 80 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, WAH/EFX1 OnOff }
+ AmpSel { A }
+ AmpA { on, Fender Clean, 38, 15, 80, Post }
+ AmpB { on, BG Crunch, 80, 15, 80, Pre }
+ EQ_A { on, 0, 4, 0, 2, 6, 6 }
+ EQ_B { on, 0, 4, 0, 2, 0, 0 }
+ ZnrA { on, ZNR, 3 }
+ ZnrB { on, ZNR, 3 }
+ Ext { off, 80, 80, 0 }
+ Comp { on, RackComp, 40, 6, 7, 80 }
+ Wah { off, PedalVox, Before, 15, 0, 70 }
+ Cabi { on, large, middle, Dynamic }
+ Mod { on, DynamicFlanger, 60, 12, 7, 7 }
+ Del { on, AnalogDelay, quarter, 30, 5, 40 }
+ Rev { on, ModernSpring, 21, 69, 8, 26 }
+ Arrm { 0, 0, 255, 0, 0 }
+ Pedal1 {
+  1 ( 24, 0, 49, enabled )
+  2 ( 0, 0, 100, disabled )
+  3 ( 0, 0, 100, disabled )
+  4 ( 0, 0, 100, disabled )
+ }
+ Pedal2V {
+  1 ( 169, 0, 50, disabled )
+  2 ( 231, 0, 20, disabled )
+  3 ( 215, 20, 30, disabled )
+  4 ( 0, 0, 100, disabled )
+ }
+ Pedal2H {
+  1 ( 214, 0, 23 )
+  2 ( 0, 0, 100 )
+  3 ( 0, 0, 100 )
+  4 ( 0, 0, 100 )
+ }
+}
+Accelerator Tube 7, Solid State 7
+Energizer Tube 7, Boost 7
+---------------------------------------------------
+G9EDpatch
+{
+Name { Mother }
+Comment {
+//This patch was made by giasso//
+
+}
+PatchLevel { 52 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B,  MOD/EFX2 OnOff }
+AmpSel { A }
+AmpA { on, BG Crunch, 60, 26, 63, Pre }
+AmpB { on, JC Clean, 60, 15, 80, Pre }
+EQ_A { on, -1, 5, 5, 12, 2, 5 }
+EQ_B { on, -11, -7, 12, 7, 9, 5 }
+ZnrA { on, DirtyGate, 3 }
+ZnrB { off, ZNR, 14 }
+Ext  { off, 0 , 0 ,0}
+Comp { off, Compressor, 6, Fast, 8, 80 }
+Wah { on, Booster, 3, 6, 8, 80 }
+Cabi { off, middle, center, Dynamic }
+Mod { on, Flanger, 76, 10, 0, 28 }
+Del { on, Delay, 360mS, 20, 8, 36 }
+Rev { on, Arena, 15, 90, 8, 60 }
+Arrm { 0, 0, 100, 0, 0 }
+Pedal1 {
+1 (206, 0, 50, disabled )
+2 (66, 0, 100, disabled )
+3 (149, 0, 50, disabled )
+4 (0, 0, 100, disabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube 4, Boost 4
+---------------------------------------------------
+G9EDpatch
+{
+Name { Time }
+Comment {
+//This patch was made by giasso//
+** http://giasso.s42.eatj.com/ZooM/ **
+
+}
+PatchLevel { 52 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B,  MOD/EFX2 OnOff }
+AmpSel { A }
+AmpA { on, PV Drive, 68, 17, 60, Pre }
+AmpB { on, JC Clean, 60, 15, 80, Pre }
+EQ_A { on, 0, 3, 3, 1, 0, -5 }
+EQ_B { on, -11, -7, 12, 7, 9, 5 }
+ZnrA { on, DirtyGate, 5 }
+ZnrB { off, ZNR, 14 }
+Ext  { off, 0 , 0 ,0}
+Comp { off, RackComp, 40, 6, 7, 80 }
+Wah { off, PedalVox, Before, 10, 1, 98 }
+Cabi { on, middle, center, Dynamic }
+Mod { off, DynamicDelay, 900mS, 90, 10, -3 }
+Del { on, Echo, 250mS, 34, 8, 62 }
+Rev { on, Spring, 14, 1, 4, 70 }
+Arrm { 0, 0, 100, 0, 0 }
+Pedal1 {
+1 (210, 0, 50, disabled )
+2 (56, 0, 100, disabled )
+3 (166, 0, 50, disabled )
+4 (0, 0, 100, disabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube 4, Boost 4
+---------------------------------------------------
+G9EDpatch
+{
+Name { ShineOn2 }
+Comment {
+//This patch was made by merlin//
+** http://giasso.s42.eatj.com/ZooM/ **
+b# F G E phased phrase for Shine On You Crazy Diamond.
+}
+PatchLevel { 72 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B,  WAH/EFX1 OnOff }
+AmpSel { A }
+AmpA { on, HiWatt Clean, 77, 27, 30, Pre }
+AmpB { on, HiWatt Clean, 70, 20, 72, Pre }
+EQ_A { on, 8, 0, 5, 12, 6, 12 }
+EQ_B { on, 8, 0, 5, 9, 6, 9 }
+ZnrA { on, ZNR, 10 }
+ZnrB { on, ZNR, 10 }
+Ext  { off, 0 , 0 ,0}
+Comp { on, Compressor, 4, Fast, 8, 64 }
+Wah { on, Phaser, Before, 1, 3, 2 }
+Cabi { on, small, center, Dynamic }
+Mod { off, Flanger, 2, 1, 0, 0 }
+Del { off, Echo, 20mS, 10, 3, 40 }
+Rev { on, Hall, 10, 60, 8, 60 }
+Arrm { 0, 255, 0, 0, 255 }
+Pedal1 {
+1 (1, 0, 100, disabled )
+2 (0, 0, 255, disabled )
+3 (0, 0, 255, disabled )
+4 (0, 0, 255, disabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube 7, Boost 10
+---------------------------------------------------
+G9EDpatch
+{
+Name { ShineOn }
+Comment {
+//This patch was made by merlin//
+** http://giasso.s42.eatj.com/ZooM/ **
+This patch is modelled on the live version of Shine On You
+Crazy Diamond for the intro, and the solo after the b# F G
+E phased section.
+}
+PatchLevel { 72 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B,  WAH/EFX1 OnOff }
+AmpSel { A }
+AmpA { on, HiWatt Clean, 70, 20, 70, Pre }
+AmpB { on, HiWatt Clean, 70, 20, 72, Pre }
+EQ_A { on, 8, 0, 5, 9, 6, 9 }
+EQ_B { on, 8, 0, 5, 9, 6, 9 }
+ZnrA { on, ZNR, 10 }
+ZnrB { on, ZNR, 10 }
+Ext  { off, 0 , 0 ,0}
+Comp { on, Compressor, 3, Slow, 3, 64 }
+Wah { off, Phaser, Before, 15, 1, 80 }
+Cabi { on, large,center, Dynamic }
+Mod { off, Chorus, 40, 25, 7, 50 }
+Del { on, Echo, 20mS, 10, 3, 40 }
+Rev { on, Hall, 10, 45, 4, 60 }
+Arrm { 0, 255, 0, 0, 255 }
+Pedal1 {
+1 (1, 0, 100, disabled )
+2 (0, 0, 255, disabled )
+3 (0, 0, 255, disabled )
+4 (0, 0, 255, disabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube 6, Boost 8
+---------------------------------------------------
+G9EDpatch
+{
+Name { Pfloyd }
+Comment {
+//This patch was made by Ccool28//
+** http://giasso.s42.eatj.com/ZooM/ **
+Run Like Hell: top micro, wah on the high frequency, boost=5
+}
+PatchLevel { 32 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+AmpSel { A }
+AmpA { on, UK Blues, 69, 23, 54, Pre }
+AmpB { on, VOX Clean, 60, 15, 80, Pre }
+EQ_A { on, 12, 12, 12, 5, 5, -3 }
+EQ_B { on, 12, 12, 12, 3, 3, -3 }
+ZnrA { on, ZNR, 14 }
+ZnrB { on, ZNR, 14 }
+Ext  { off, 0 , 0 ,0}
+Comp { on, Compressor, 6, Fast, 5, 10 }
+Wah { on, PedalVox, Before, 24, 0, 70 }
+Cabi { off, small, center, Condenser }
+Mod { on, Chorus, 40, 25, 7, 50 }
+Del { on, Delay, 405mS, 66, 6, 40 }
+Rev { on, Hall, 16, 6, 5, 50 }
+Arrm { 0, 0, 100, 0, 0 }
+Pedal1 {
+1 (24, 0, 49, disabled )
+2 (0, 0, 100, disabled )
+3 (0, 0, 100, disabled )
+4 (0, 0, 100, disabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube ?, Boost ?
+---------------------------------------------------
+G9EDpatch
+{
+Name { PF1 }
+Comment {
+//This patch was made by giasso//
+** http://giasso.s42.eatj.com/ZooM/ **
+
+}
+PatchLevel { 68 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+AmpSel { B }
+AmpA { on, VOX Clean, 59, 15, 67, Pre }
+AmpB { on, BG Drive, 19, 13, 72, Pre }
+EQ_A { on, 7, 4, 2, 4, 4, 6 }
+EQ_B { on, 4, 5, 3, 5, 5, 8 }
+ZnrA { on, ZNR, 3 }
+ZnrB { on, ZNR, 6 }
+Ext  { off, 0 , 0 ,0}
+Comp { on, Compressor, 2, Fast, 9, 70 }
+Wah { off, Booster, 1, 5, 10, 80 }
+Cabi { on, middle, middle, Dynamic }
+Mod { off, Chorus, 6, 6, 0, 0 }
+Del { on, Echo, 165mS, 70, 6, 36 }
+Rev { on, Arena, 15, 90, 8, 60 }
+Arrm { 0, 0, 255, 0, 0 }
+Pedal1 {
+1 (1, 0, 100, enabled )
+2 (0, 0, 100, enabled )
+3 (0, 0, 100, disabled )
+4 (0, 0, 255, disabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube 4, Boost 4
+---------------------------------------------------
+G9EDpatch
+{
+Name { TheWall }
+Comment {
+//This patch was made by giasso//
+** http://giasso.s42.eatj.com/ZooM/ **
+
+}
+PatchLevel { 50 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+AmpSel { B }
+AmpA { on, VOX Clean, 59, 15, 67, Pre }
+AmpB { on, VOX Clean, 100, 20, 35, Pre }
+EQ_A { on, 7, 4, 2, 4, 4, 6 }
+EQ_B { on, 4, -2, 9, 5, 9, 8 }
+ZnrA { on, ZNR, 3 }
+ZnrB { on, NoiseGate, 8 }
+Ext  { off, 0 , 0 ,0}
+Comp { on, Compressor, 5, Fast, 10, 72 }
+Wah { on, Booster, 3, 4, 10, 100 }
+Cabi { off, small, middle, Condenser }
+Mod { off, Chorus, 40, 25, 7, 50 }
+Del { on, Delay, 352mS, 38, 8, 20 }
+Rev { on, Arena, 15, 90, 8, 60 }
+Arrm { 0, 0, 255, 0, 0 }
+Pedal1 {
+1 (54, 0, 100, enabled )
+2 (0, 0, 100, enabled )
+3 (0, 0, 100, disabled )
+4 (0, 0, 100, disabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube 4, Boost 4
+---------------------------------------------------
+G9EDpatch
+{
+ Name { VAI #1 }
+ Comment {
+ }
+ PatchLevel { 86 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, MOD/EFX2 OnOff }
+ AmpSel { A }
+ AmpA { on, ExtremeDS, 0, 15, 80, Pre }
+ AmpB { on, ExtremeDS, 50, 15, 80, Pre }
+ EQ_A { on, 4, 5, 1, 4, 5, 1 }
+ EQ_B { on, 4, 5, 1, 4, 5, 1 }
+ ZnrA { on, ZNR, 13 }
+ ZnrB { on, ZNR, 13 }
+ Ext { on, 80, 80, 0 }
+ Comp { on, RackComp, 40, 6, 7, 80 }
+ Wah { off, PedalVox, Before, 15, 0, 70 }
+ Cabi { on, large, middle, Dynamic }
+ Mod { off, PedalPitch, 5, Up, 8, 0 }
+ Del { on, Delay, 500mS, 14, 7, 24 }
+ Rev { on, Room, 10, 5, 5, 60 }
+ Arrm { 0, 0, 255, 0, 0 }
+ Pedal1 {
+ 1 ( 24, 0, 49, enabled )
+ 2 ( 0, 0, 100, disabled )
+ 3 ( 0, 0, 100, disabled )
+ 4 ( 0, 0, 100, disabled )
+ }
+ Pedal2V {
+ 1 ( 154, 0, 100, enabled )
+ 2 ( 0, 0, 100, disabled )
+ 3 ( 0, 0, 100, disabled )
+ 4 ( 0, 0, 100, disabled )
+ }
+ Pedal2H {
+ 1 ( 207, 0, 25 )
+ 2 ( 0, 0, 100 )
+ 3 ( 0, 0, 100 )
+ 4 ( 0, 0, 100 )
+ }
+}
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube ?, Boost ?
+---------------------------------------------------
+My Vai patch revised w/more sustain.G9EDpatch
+{
+ Name { VAI #2 }
+ Comment {
+ }
+ PatchLevel { 86 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, MOD/EFX2 OnOff }
+ AmpSel { A }
+ AmpA { on, ExtremeDS, 0, 10, 80, Pre }
+ AmpB { on, ExtremeDS, 50, 10, 85, Pre }
+ EQ_A { on, 4, 5, 8, 8, 4, -2 }
+ EQ_B { on, 4, 5, 8, 8, 4, -2 }
+ ZnrA { on, ZNR, 6 }
+ ZnrB { on, ZNR, 7 }
+ Ext { on, 80, 80, 0 }
+ Comp { on, RackComp, 50, 10, 10, 80 }
+ Wah { off, PedalVox, Before, 15, 0, 70 }
+ Cabi { on, large, middle, Condenser }
+ Mod { off, PedalPitch, 5, Up, 8, 0 }
+ Del { on, Delay, 500mS, 14, 7, 24 }
+ Rev { on, Room, 10, 5, 5, 60 }
+ Arrm { 0, 0, 255, 0, 0 }
+ Pedal1 {
+  1 ( 24, 0, 49, enabled )
+  2 ( 0, 0, 100, disabled )
+  3 ( 0, 0, 100, disabled )
+  4 ( 0, 0, 100, disabled )
+ }
+ Pedal2V {
+  1 ( 154, 0, 100, enabled )
+  2 ( 0, 0, 100, disabled )
+  3 ( 0, 0, 100, disabled )
+  4 ( 0, 0, 100, disabled )
+ }
+ Pedal2H {
+  1 ( 207, 0, 25 )
+  2 ( 0, 0, 100 )
+  3 ( 0, 0, 100 )
+  4 ( 0, 0, 100 )
+ }
+}
+
+Accelerator Tube 6, Solid State 6
+Energizer Tube 6, Boost 6
+---------------------------------------------------
+G9EDpatch
+{
+ Name { FTLOG  }
+ Comment {
+Steve vai
+ }
+ PatchLevel { 86 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, WAH/EFX1 OnOff }
+ AmpSel { B }
+ AmpA { on, DZ Clean, 50, 15, 84, Post }
+ AmpB { on, Rect Vintage, 85, 20, 90, Pre }
+ EQ_A { on, 0, 4, 0, 0, 2, 0 }
+ EQ_B { on, 5, -1, 3, 5, 7, 7 }
+ ZnrA { on, ZNR, 3 }
+ ZnrB { on, NoiseGate, 2 }
+ Ext { off, 80, 80, 0 }
+ Comp { on, RackComp, 40, 4, 9, 70 }
+ Wah { off, Phaser, Before, 7, 4, 70 }
+ Cabi { on, middle, middle, Dynamic }
+ Mod { off, Z-MonoPitch, 6, 6, 0, 0 }
+ Del { on, Echo, 360mS, 20, 8, 40 }
+ Rev { on, Hall, 10, 45, 5, 60 }
+ Arrm { 0, 0, 255, 0, 0 }
+ Pedal1 {
+  1 ( 1, 0, 100, enabled )
+  2 ( 0, 0, 100, enabled )
+  3 ( 0, 0, 100, disabled )
+  4 ( 0, 0, 255, disabled )
+ }
+ Pedal2V {
+  1 ( 202, 0, 100, enabled )
+  2 ( 0, 0, 255, disabled )
+  3 ( 0, 0, 255, disabled )
+  4 ( 0, 0, 100, disabled )
+ }
+ Pedal2H {
+  1 ( 203, 0, 100 )
+  2 ( 220, 0, 29 )
+  3 ( 0, 0, 255 )
+  4 ( 0, 0, 255 )
+ }
+}
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube ?, Boost ?
+---------------------------------------------------
+G9EDpatch
+{
+Name { Eagles }
+Comment {
+//This patch was made by Fridge//
+** http://giasso.s42.eatj.com/ZooM/ **
+
+}
+PatchLevel { 32 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+AmpSel { A }
+AmpA { on, JC Clean, 60, 15, 80, Pre }
+AmpB { on, HiWatt Clean, 60, 15, 80, Pre }
+EQ_A { on, 2, 9, 6, 0, 5, 12 }
+EQ_B { on, 9, 4, 8, 6, 9, 5 }
+ZnrA { on, ZNR, 11 }
+ZnrB { on, NoiseGate, 8 }
+Ext  { off, 0 , 0 ,0}
+Comp { on, Compressor, 3, Slow, 7, 88 }
+Wah { off, Booster, 2, 6, 8, 80 }
+Cabi { off, small, center, Dynamic }
+Mod { on, StereoChorus, 80, 30, 7, 60 }
+Del { on, Echo, 240mS, 20, 8, 40 }
+Rev { on, ModernSpring, 20, 100, 8, 8 }
+Arrm { 0, 0, 255, 0, 0 }
+Pedal1 {
+1 (8, 0, 10, enabled )
+2 (0, 0, 100, disabled )
+3 (0, 0, 255, disabled )
+4 (0, 0, 255, disabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube ?, Boost ?
+---------------------------------------------------
+G9EDpatch
+{
+Name { Metalica }
+Comment {
+//This patch was made by Fridge//
+** http://giasso.s42.eatj.com/ZooM/ **
+
+}
+PatchLevel { 54 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+AmpSel { A }
+AmpA { on, BG Drive, 100, 21, 75, Pre }
+AmpB { on, BG Drive, 100, 21, 95, Pre }
+EQ_A { on, 10, 9, -10, 12, 5, 5 }
+EQ_B { on, 5, 5, 6, 5, 5, 5 }
+ZnrA { on, ZNR, 15 }
+ZnrB { on, ZNR, 10 }
+Ext  { off, 0 , 0 ,0}
+Comp { off, Compressor, 1, Fast, 5, 64 }
+Wah { on, Booster, 3, 6, 5, 80 }
+Cabi { on, large, center, Dynamic }
+Mod { off, HarmonizedPitchShifter, m, E, 6, 100 }
+Del { on, Delay, 360mS, 20, 8, 30 }
+Rev { on, Hall, 10, 45, 6, 28 }
+Arrm { 0, 0, 100, 0, 0 }
+Pedal1 {
+1 (207, 0, 15, disabled )
+2 (174, 50, 50, enabled )
+3 (0, 0, 100, disabled )
+4 (0, 0, 100, disabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube ?, Boost ?
+---------------------------------------------------
+G9EDpatch
+{
+Name { Metallic }
+Comment {
+//This patch was made by joss//
+** http://giasso.s42.eatj.com/ZooM/ **
+
+}
+PatchLevel { 30 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+AmpSel { A }
+AmpA { on, SD+M_Stk, 73, 21, 84, Pre }
+AmpB { on, BG Drive, 76, 20, 100, Pre }
+EQ_A { on, 9, 6, 6, 7, 5, 10 }
+EQ_B { on, 8, 2, 6, 6, 10, 7 }
+ZnrA { on, DirtyGate, 4 }
+ZnrB { on, DirtyGate, 4 }
+Ext  { off, 0 , 0 ,0}
+Comp { off, Compressor, 3, Slow, 5, 80 }
+Wah { on, Booster, 4, 8, 8, 76 }
+Cabi { off, small, center, Dynamic }
+Mod { off, Chorus, 36, 20, 5, 58 }
+Del { on, Delay, 270mS, 0, 3, 20 }
+Rev { off, Arena, 2, 50, 5, 30 }
+Arrm { 0, 0, 100, 0, 0 }
+Pedal1 {
+1 (141, 0, 13, disabled )
+2 (227, 0, 15, enabled )
+3 (0, 0, 100, disabled )
+4 (0, 0, 100, disabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube ?, Boost ?
+---------------------------------------------------
+G9EDpatch
+{
+Name { AC/DC }
+Comment {
+//This patch was made by Fridge//
+** http://giasso.s42.eatj.com/ZooM/ **
+
+}
+PatchLevel { 90 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+AmpSel { A }
+AmpA { on, MS Crunch, 30, 15, 70, Pre }
+AmpB { on, MS Crunch, 100, 18, 96, Pre }
+EQ_A { on, 12, 4, 0, 11, 5, 4 }
+EQ_B { on, 10, 0, 1, 7, 0, 0 }
+ZnrA { on, NoiseGate, 7 }
+ZnrB { on, NoiseGate, 5 }
+Ext  { off, 0 , 0 ,0}
+Comp { on, Compressor, 5, Slow, 5, 80 }
+Wah { on, Booster, 3, 7, 3, 100 }
+Cabi { off, middle, middle, Condenser }
+Mod { off, Flanger, 26, 7, 4, 14 }
+Del { off, Delay, 250mS, 40, 8, 50 }
+Rev { on, Hall, 14, 10, 5, 10 }
+Arrm { 0, 0, 100, 0, 0 }
+Pedal1 {
+1 (0, 0, 0, disabled )
+2 (0, 0, 0, disabled )
+3 (0, 0, 0, disabled )
+4 (0, 0, 0, disabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube ?, Boost ?
+---------------------------------------------------
+G9EDpatch 
+{ 
+Name { JCM/SD-1 } 
+Comment { 
+} 
+PatchLevel { 80 } 
+Tempo { 120 } 
+PedalFunction { PRE-AMP CH A/B, MOD/EFX2 OnOff } 
+AmpSel { A } 
+AmpA { on, SD+M_Stk, 95, 17, 80, Pre } 
+AmpB { on, SD+M_Stk, 95, 17, 83, Pre } 
+EQ_A { on, 3, 1, -7, 5, 3, 0 } 
+EQ_B { on, 1, 1, -3, 7, 3, 0 } 
+ZnrA { on, ZNR, 1 } 
+ZnrB { on, ZNR, 1 } 
+Ext { off, 80, 80, 0 } 
+Comp { off, RackComp, 40, 6, 7, 80 } 
+Wah { off, MultiWah, Before, 30, 10, 80 } 
+Cabi { off, large, center, Dynamic } 
+Mod { off, StereoChorus, 80, 30, 7, 24 } 
+Del { on, Delay, 360mS, 20, 8, 0 } 
+Rev { on, Spring, 1, 1, 10, 18 } 
+Arrm { 0, 0, 100, 0, 0 } 
+Pedal1 { 
+1 ( 1, 0, 100, disabled ) 
+2 ( 0, 0, 100, disabled ) 
+3 ( 0, 0, 100, disabled ) 
+4 ( 0, 0, 100, disabled ) 
+} 
+Pedal2V { 
+1 ( 30, 4, 29, enabled ) 
+2 ( 0, 0, 100, disabled ) 
+3 ( 0, 0, 100, disabled ) 
+4 ( 0, 0, 100, disabled ) 
+} 
+Pedal2H { 
+1 ( 207, 0, 25 ) 
+2 ( 0, 0, 50 ) 
+3 ( 0, 0, 50 ) 
+4 ( 0, 0, 50 ) 
+} 
+}
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube ?, Boost ?
+---------------------------------------------------
+G9EDpatch
+{
+Name { ZakWylde }
+Comment {
+//This patch was made by Fridge//
+** http://giasso.s42.eatj.com/ZooM/ **
+}
+PatchLevel { 80 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+AmpSel { A }
+AmpA { on, MetalZone, 74, 15, 70, Pre }
+AmpB { on, MetalZone, 90, 15, 95, Pre }
+EQ_A { on, 8, 0, 5, 9, 0, 0 }
+EQ_B { on, 7, 2, 10, 10, 3, 6 }
+ZnrA { on, ZNR, 16 }
+ZnrB { on, ZNR, 12 }
+Ext  { off, 0 , 0 ,0}
+Comp { off, Compressor, 6, Fast, 8, 80 }
+Wah { off, PedalCryBaby, Before, 15, 0, 70 }
+Cabi { on, middle, middle, Condenser }
+Mod { on, StereoChorus, 40, 40, 10, 60 }
+Del { off, PingPongDelay, 360mS, 20, 8, 40 }
+Rev { on, Spring, 20, 1, 4, 60 }
+Arrm { 0, 0, 100, 0, 0 }
+Pedal1 {
+1 (27, 0, 49, enabled )
+2 (209, 20, 20, enabled )
+3 (225, 0, 30, enabled )
+4 (0, 0, 100, disabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube ?, Boost ?
+---------------------------------------------------
+G9EDpatch
+{
+Name { DmCtrl  }
+Comment {
+//This patch was made by SkyShroud//
+** http://giasso.s42.eatj.com/ZooM/ **
+
+}
+PatchLevel { 56 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+AmpSel { B }
+AmpA { on, MS Crunch, 60, 15, 64, Pre }
+AmpB { on, BG Drive, 35, 18, 54, Pre }
+EQ_A { on, 4, 7, 4, 2, 8, 1 }
+EQ_B { on, 5, 3, 1, 9, 8, 5 }
+ZnrA { on, ZNR, 12 }
+ZnrB { off, ZNR, 9 }
+Ext  { off, 0 , 0 ,0}
+Comp { off, RackComp, 35, 3, 9, 86 }
+Wah { off, Booster, 1, 0, 10, 100 }
+Cabi { on, middle, center, Dynamic }
+Mod { off, PedalMonoPitch, 4, Up, 8, 0 }
+Del { on, PingPongDelay, 431mS, 22, 9, 32 }
+Rev { on, Hall, 13, 8, 5, 22 }
+Arrm { 0, 255, 0, 0, 255 }
+Pedal1 {
+1 (175, 0, 100, enabled )
+2 (0, 0, 100, disabled )
+3 (0, 0, 255, disabled )
+4 (0, 0, 255, disabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube ?, Boost ?
+---------------------------------------------------
+G9EDpatch
+{
+ Name { Pull me }
+ Comment {
+intro pull me under by lestat97 chan B
+ }
+ PatchLevel { 80 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, WAH/EFX1 OnOff }
+ AmpSel { B }
+ AmpA { on, JC Clean, 60, 15, 71, Pre }
+ AmpB { on, Aco.Sim, 8, 7, 79, Pre }
+ EQ_A { on, 2, -4, 0, 6, 0, 3 }
+ EQ_B { on, 0, 0, 0, 5, 4, 2 }
+ ZnrA { on, ZNR, 3 }
+ ZnrB { off, ZNR, 4 }
+ Ext { off, 80, 80, 0 }
+ Comp { on, RackComp, 6, 6, 8, 52 }
+ Wah { off, PedalResonanceFilter, After, 50, 2, 80 }
+ Cabi { on, large, center, Dynamic }
+ Mod { on, Chorus, 60, 22, 9, 52 }
+ Del { on, Delay, 211mS, 0, 8, 40 }
+ Rev { off, Arena, 4, 21, 8, 16 }
+ Arrm { 0, 0, 255, 0, 0 }
+ Pedal1 {
+ 1 ( 1, 0, 100, enabled )
+ 2 ( 0, 0, 100, disabled )
+ 3 ( 0, 0, 100, enabled )
+ 4 ( 0, 0, 255, disabled )
+ }
+ Pedal2V {
+ 1 ( 206, 0, 50, enabled )
+ 2 ( 140, 0, 49, disabled )
+ 3 ( 227, 20, 0, enabled )
+ 4 ( 0, 0, 255, disabled )
+ }
+ Pedal2H {
+ 1 ( 32, 0, 49 )
+ 2 ( 0, 0, 255 )
+ 3 ( 0, 0, 255 )
+ 4 ( 0, 0, 255 )
+ }
+}
+
+Accelerator Tube 5, Solid State 5
+Energizer Tube 2, Boost 2
+---------------------------------------------------
+G9EDpatch
+{
+Name { EntrNous }
+Comment {
+//This patch was made by Fridge//
+** http://giasso.s42.eatj.com/ZooM/ **
+
+}
+PatchLevel { 50 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+AmpSel { A }
+AmpA { on, Centaur, 65, 24, 80, Pre }
+AmpB { on, Aco.Sim, 8, 8, 69, Pre }
+EQ_A { on, 4, 2, 6, 7, -12, 12 }
+EQ_B { on, 2, 4, 4, 10, -1, 12 }
+ZnrA { on, ZNR, 4 }
+ZnrB { on, NoiseGate, 5 }
+Ext  { off, 0 , 0 ,0}
+Comp { on, Limiter, 26, 7, 10, 80 }
+Wah { off, PedalCryBaby, Before, 15, 0, 70 }
+Cabi { off, large, center, Dynamic }
+Mod { on, Ensemble, 66, 18, 5, 40 }
+Del { off, Air, 25, 10, 5, 50 }
+Rev { on, Hall, 10, 45, 5, 30 }
+Arrm { 0, 0, 255, 0, 0 }
+Pedal1 {
+1 (27, 0, 49, enabled )
+2 (0, 0, 100, disabled )
+3 (0, 0, 100, enabled )
+4 (0, 0, 100, enabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube ?, Boost ?
+---------------------------------------------------
+G9EDpatch
+{
+Name { FlyBnite }
+Comment {
+//This patch was made by Fridge//
+** http://giasso.s42.eatj.com/ZooM/ **
+
+}
+PatchLevel { 68 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+AmpSel { B }
+AmpA { on, BG Crunch, 80, 20, 97, Pre }
+AmpB { on, Centaur, 51, 20, 80, Pre }
+EQ_A { on, 6, 5, 9, 8, -4, 4 }
+EQ_B { on, 2, 2, 4, 0, 0, 4 }
+ZnrA { on, NoiseGate, 4 }
+ZnrB { on, ZNR, 4 }
+Ext  { off, 0 , 0 ,0}
+Comp { on, Compressor, 1, Fast, 5, 80 }
+Wah { off, Booster, 3, 6, 8, 80 }
+Cabi { off, small, center, Dynamic }
+Mod { on, Ensemble, 66, 18, 5, 40 }
+Del { on, PingPongDelay, 360mS, 20, 8, 52 }
+Rev { on, Hall, 4, 8, 5, 40 }
+Arrm { 0, 0, 100, 0, 0 }
+Pedal1 {
+1 (106, 60, 36, disabled )
+2 (209, 0, 24, disabled )
+3 (8, 0, 10, enabled )
+4 (0, 0, 100, disabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube ?, Boost ?
+---------------------------------------------------
+G9EDpatch
+{
+ Name { EVH #1  }
+ Comment {
+ }
+ PatchLevel { 84 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, MOD/EFX2 OnOff }
+ AmpSel { A }
+ AmpA { on, DZ Drive, 0, 22, 80, Pre }
+ AmpB { on, DZ Drive, 80, 22, 80, Pre }
+ EQ_A { on, 4, 5, 4, 3, 5, 5 }
+ EQ_B { on, 4, 4, 4, 1, 5, 5 }
+ ZnrA { on, ZNR, 4 }
+ ZnrB { on, ZNR, 4 }
+ Ext { on, 80, 80, 0 }
+ Comp { on, RackComp, 40, 6, 7, 80 }
+ Wah { off, PedalVox, Before, 25, 0, 70 }
+ Cabi { on, middle, middle, Dynamic }
+ Mod { off, Flanger, 32, 7, 4, 16 }
+ Del { on, Delay, 500mS, 16, 8, 38 }
+ Rev { off, Arena, 4, 85, 5, 36 }
+ Arrm { 0, 0, 255, 0, 0 }
+ Pedal1 {
+  1 ( 24, 0, 49, enabled )
+  2 ( 0, 0, 100, disabled )
+  3 ( 0, 0, 100, disabled )
+  4 ( 0, 0, 100, disabled )
+ }
+ Pedal2V {
+  1 ( 206, 6, 18, enabled )
+  2 ( 0, 0, 100, disabled )
+  3 ( 0, 0, 100, disabled )
+  4 ( 0, 0, 100, disabled )
+ }
+ Pedal2H {
+  1 ( 149, 16, 50 )
+  2 ( 0, 0, 100 )
+  3 ( 0, 0, 100 )
+  4 ( 0, 0, 100 )
+ }
+}
+
+Accelerator Tube 5, Solid State 5
+Energizer Tube 5, Boost 5
+---------------------------------------------------
+G9EDpatch
+{
+Name { DayTrip }
+Comment {
+//This patch was made by Fridge//
+** http://giasso.s42.eatj.com/ZooM/ **
+
+}
+PatchLevel { 50 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+AmpSel { A }
+AmpA { on, Z Clean, 61, 15, 69, Pre }
+AmpB { on, Z Combo, 82, 15, 85, Pre }
+EQ_A { on, 0, 3, 4, 0, 0, 0 }
+EQ_B { on, 2, 5, 7, 7, 6, 7 }
+ZnrA { on, ZNR, 12 }
+ZnrB { on, NoiseGate, 10 }
+Ext  { off, 0 , 0 ,0}
+Comp { off, RackComp, 40, 2, 7, 80 }
+Wah { off, Booster, 4, 7, 8, 80 }
+Cabi { off, small, center, Dynamic }
+Mod { on, StereoChorus, 70, 38, 7, 96 }
+Del { on, AnalogDelay, 300mS, 36, 8, 70 }
+Rev { on, AutoPan, L4, 36, 0, 0 }
+Arrm { 0, 0, 100, 0, 0 }
+Pedal1 {
+1 (8, 0, 10, disabled )
+2 (143, 22, 49, disabled )
+3 (242, 1, 50, disabled )
+4 (0, 0, 100, disabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube ?, Boost ?
+---------------------------------------------------
+G9EDpatch
+{
+Name { ShineOn }
+Comment {
+//This patch was made by danger//
+** http://giasso.s42.eatj.com/ZooM/ **
+This patch is modelled on the live version of Shine On YouCr
+azy Diamond for the intro, and the solo after the b# F GE ph
+ased section.
+}
+PatchLevel { 72 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B,  WAH/EFX1 OnOff }
+AmpSel { A }
+AmpA { on, HiWatt Clean, 70, 20, 70, Pre }
+AmpB { on, HiWatt Clean, 70, 20, 72, Pre }
+EQ_A { on, 8, 0, 5, 9, 6, 9 }
+EQ_B { on, 8, 0, 5, 9, 6, 9 }
+ZnrA { on, ZNR, 10 }
+ZnrB { on, ZNR, 10 }
+Ext  { off, 0 , 0 ,0}
+Comp { on, Compressor, 3, Slow, 3, 64 }
+Wah { off, Phaser, Before, 15, 1, 80 }
+Cabi { on, large, center, Dynamic }
+Mod { off, Chorus, 40, 25, 7, 50 }
+Del { on, Echo, 20mS, 10, 3, 40 }
+Rev { on, Hall, 10, 45, 4, 60 }
+Arrm { 0, 0, 0, 0, 0 }
+Pedal1 {
+1 (0, 0, 0, disabled )
+2 (0, 0, 0, disabled )
+3 (0, 0, 0, disabled )
+4 (0, 0, 0, disabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube 6, Boost 5
+---------------------------------------------------
+G9EDpatch
+{
+Name { ROBOT  }
+Comment {
+//This patch was made by danger//
+** http://giasso.s42.eatj.com/ZooM/ **
+Funny robot kinda sound
+}
+PatchLevel { 26 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+AmpSel { A }
+AmpA { on, PV Drive, 60, 15, 80, Pre }
+AmpB { on, FZ+M_Stk, 79, 15, 80, Pre }
+EQ_A { on, 4, 0, 4, 8, 10, 5 }
+EQ_B { on, 3, 0, 1, 6, 2, -4 }
+ZnrA { on, ZNR, 13 }
+ZnrB { on, ZNR, 16 }
+Ext  { off, 0 , 0 ,0}
+Comp { on, Compressor, 6, Slow, 8, 70 }
+Wah { off, Octave, 80, 80, 8, 80 }
+Cabi { on, middle, middle, Dynamic }
+Mod { on, PitchShifter, 24, 3, 0, 100 }
+Del { off, Echo, 320mS, 20, 6, 36 }
+Rev { on, Hall, 10, 1, 5, 28 }
+Arrm { 0, 0, 0, 0, 0 }
+Pedal1 {
+1 (0, 0, 0, disabled )
+2 (0, 0, 0, disabled )
+3 (0, 0, 0, disabled )
+4 (0, 0, 0, disabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube ?, Boost ?
+---------------------------------------------------
+G9EDpatch
+{
+Name { CultRain }
+Comment {
+//This patch was made by danger//
+** http://giasso.s42.eatj.com/ZooM/ **
+
+}
+PatchLevel { 90 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+AmpSel { A }
+AmpA { on, BG Crunch, 20, 25, 80, Pre }
+AmpB { on, BG Crunch, 60, 15, 90, Pre }
+EQ_A { on, 2, -1, -2, 2, 0, 0 }
+EQ_B { on, 3, 5, 3, 5, 6, 7 }
+ZnrA { on, NoiseGate, 10 }
+ZnrB { on, NoiseGate, 10 }
+Ext  { off, 0 , 0 ,0}
+Comp { on, Compressor, 2, Fast, 9, 80 }
+Wah { off, Booster, 4, 9, 10, 100 }
+Cabi { off, small, middle, Dynamic }
+Mod { on, Chorus, 40, 25, 7, 30 }
+Del { on, PingPongDelay, 250mS, 4, 8, 26 }
+Rev { on, EarlyReflection, 10, 10, 6, 50 }
+Arrm { 1, 0, 0, 0, 0 }
+Pedal1 {
+1 (8, 0, 10, enabled )
+2 (0, 0, 100, disabled )
+3 (0, 0, 255, disabled )
+4 (0, 0, 255, disabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube 5, Boost 7
+---------------------------------------------------
+G9EDpatch
+{
+Name { Funk   }
+Comment {
+//This patch was made by danger//
+** http://giasso.s42.eatj.com/ZooM/ **
+
+}
+PatchLevel { 80 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+AmpSel { B }
+AmpA { on, MS Crunch, 50, 12, 58, Pre }
+AmpB { on, Z Clean, 20, 15, 80, Pre }
+EQ_A { on, 1, 4, -2, 11, 6, -12 }
+EQ_B { on, 4, 6, 2, 9, 7, 0 }
+ZnrA { on, ZNR, 5 }
+ZnrB { on, NoiseGate, 7 }
+Ext  { off, 0 , 0 ,0}
+Comp { on, Compressor, 9, Fast, 6, 70 }
+Wah { on, PedalVox, Before, 15, 0, 70 }
+Cabi { on, middle, center, Dynamic }
+Mod { off, Cry, 5, 8, 7, 100 }
+Del { off, Delay, 360mS, 20, 8, 40 }
+Rev { on, Arena, 7, 90, 8, 54 }
+Arrm { 0, 0, 255, 0, 0 }
+Pedal1 {
+1 (0, 0, 0, disabled )
+2 (0, 0, 0, disabled )
+3 (0, 0, 0, disabled )
+4 (0, 0, 0, disabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube ?, Boost ?
+---------------------------------------------------
+G9EDpatch
+{
+ Name { rough bo }
+ Comment {
+zz top
+ }
+ PatchLevel { 54 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, WAH/EFX1 OnOff }
+ AmpSel { B }
+ AmpA { on, Rect Vintage, 57, 12, 62, Pre }
+ AmpB { on, Rect Vintage, 83, 15, 60, Pre }
+ EQ_A { on, 0, 1, 3, 2, -2, 0 }
+ EQ_B { on, 0, 3, 4, 0, 0, 0 }
+ ZnrA { on, ZNR, 3 }
+ ZnrB { on, ZNR, 4 }
+ Ext { off, 80, 80, 0 }
+ Comp { on, RackComp, 29, 6, 5, 52 }
+ Wah { off, Booster, 4, 7, 7, 88 }
+ Cabi { on, middle, center, Condenser }
+ Mod { on, Chorus, 68, 18, 5, 36 }
+ Del { on, Delay, 133mS, 2, 4, 44 }
+ Rev { on, Room, 3, 2, 5, 38 }
+ Arrm { 0, 0, 255, 0, 0 }
+ Pedal1 {
+  1 ( 1, 0, 100, disabled )
+  2 ( 0, 0, 255, disabled )
+  3 ( 0, 0, 255, disabled )
+  4 ( 0, 0, 255, disabled )
+ }
+ Pedal2V {
+  1 ( 140, 0, 49, enabled )
+  2 ( 0, 0, 255, disabled )
+  3 ( 0, 0, 255, disabled )
+  4 ( 0, 0, 255, disabled )
+ }
+ Pedal2H {
+  1 ( 222, 0, 29 )
+  2 ( 0, 0, 255 )
+  3 ( 0, 0, 255 )
+  4 ( 0, 0, 255 )
+ }
+}
+
+Accelerator Tube 6, Solid State 4
+Energizer Tube 2, Boost 5
+---------------------------------------------------
+G9EDpatch
+{
+Name { jBeGood }
+Comment {
+//This patch was made by giasso//
+** http://giasso.s42.eatj.com/ZooM/ **
+
+}
+PatchLevel { 80 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B,  Delay TAP }
+AmpSel { B }
+AmpA { on, VOX Clean, 22, 9, 18, Pre }
+AmpB { on, UK Blues, 35, 30, 56, Pre }
+EQ_A { on, 5, 2, 0, 2, 0, 2 }
+EQ_B { on, 9, -8, 11, -9, 9, 1 }
+ZnrA { on, ZNR, 10 }
+ZnrB { off, ZNR, 16 }
+Ext  { off, 0 , 0 ,0}
+Comp { off, Limiter, 10, 7, 10, 80 }
+Wah { off, AutoWah, Before, 8, 8, 80 }
+Cabi { off, small, center, Dynamic }
+Mod { off, Delay, 240mS, 18, 8, 0 }
+Del { off, Delay, 600mS, 0, 5, 42 }
+Rev { on, Arena, 9, 60, 8, 60 }
+Arrm { 0, 0, 100, 0, 0 }
+Pedal1 {
+1 (162, 0, 50, disabled )
+2 (0, 0, 100, disabled )
+3 (0, 0, 100, disabled )
+4 (0, 0, 100, disabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube 5, Boost 6
+---------------------------------------------------
+G9EDpatch
+{
+ Name { ramengo }
+ Comment {
+Clean Solo
+ }
+ PatchLevel { 70 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, Delay TAP }
+ AmpSel { A }
+ AmpA { on, TS808, 60, 9, 80, Pre }
+ AmpB { on, dist+, 36, 3, 80, Pre }
+ EQ_A { on, 5, 2, 3, 0, 3, 6 }
+ EQ_B { on, 4, 0, -3, 0, 5, 3 }
+ ZnrA { off, ZNR, 4 }
+ ZnrB { off, ZNR, 11 }
+ Ext { off, 0, 0, 0 }
+ Comp { on, RackComp, 40, 6, 10, 80 }
+ Wah { off, PedalVox, Before, 10, 10, 70 }
+ Cabi { off, small, center, Dynamic }
+ Mod { off, Chorus, 40, 25, 5, 70 }
+ Del { off, PingPongDelay, 360mS, 80, 8, 40 }
+ Rev { on, Arena, 15, 44, 8, 60 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+  1 ( 1, 0, 100, disabled )
+  2 ( 0, 0, 0, disabled )
+  3 ( 0, 0, 0, disabled )
+  4 ( 0, 0, 0, disabled )
+ }
+ Pedal2V {
+  1 ( 140, 0, 49, disabled )
+  2 ( 0, 0, 0, disabled )
+  3 ( 0, 0, 0, disabled )
+  4 ( 0, 0, 0, disabled )
+ }
+ Pedal2H {
+  1 ( 226, 0, 29 )
+  2 ( 0, 0, 0 )
+  3 ( 0, 0, 0 )
+  4 ( 0, 0, 0 )
+ }
+}
+
+Accelerator Tube 4, Solid State 7
+Energizer Tube 4, Boost 8
+---------------------------------------------------
+G9EDpatch 
+{ 
+Name { VAIsnake } 
+Comment { 
+} 
+PatchLevel { 80 } 
+Tempo { 120 } 
+PedalFunction { PRE-AMP CH A/B, DELAY OnOff } 
+AmpSel { B } 
+AmpA { on, Fender Clean, 60, 15, 69, Pre } 
+AmpB { on, MS Drive, 22, 21, 80, Pre } 
+EQ_A { on, 0, 0, 0, 0, 0, 0 } 
+EQ_B { on, 5, 0, 3, 0, 0, 0 } 
+ZnrA { on, ZNR, 3 } 
+ZnrB { on, ZNR, 8 } 
+Ext { off, 80, 80, 0 } 
+Comp { off, Compressor, 8, Slow, 6, 70 } 
+Wah { on, Booster, 4, 8, 10, 100 } 
+Cabi { off, small, center, Dynamic } 
+Mod { on, Delay, 240mS, 18, 8, 50 } 
+Del { on, Delay, 360mS, 20, 8, 40 } 
+Rev { on, Hall, 30, 100, 10, 50 } 
+Arrm { 0, 0, 255, 0, 0 } 
+Pedal1 { 
+1 ( 1, 0, 100, enabled ) 
+2 ( 0, 0, 100, disabled ) 
+3 ( 0, 0, 255, disabled ) 
+4 ( 0, 0, 255, disabled ) 
+} 
+Pedal2V { 
+1 ( 8, 0, 10, enabled ) 
+2 ( 0, 0, 255, disabled ) 
+3 ( 0, 0, 255, disabled ) 
+4 ( 0, 0, 255, disabled ) 
+} 
+Pedal2H { 
+1 ( 8, 0, 10 ) 
+2 ( 0, 0, 255 ) 
+3 ( 0, 0, 255 ) 
+4 ( 0, 0, 255 ) 
+} 
+}
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube ?, Boost ?
+---------------------------------------------------
+G9EDpatch
+{
+ Name { Gilmour1 }
+ Comment {
+ }
+ PatchLevel { 40 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, MOD/EFX2 OnOff }
+ AmpSel { A }
+ AmpA { on, BigMuff, 20, 20, 65, Pre }
+ AmpB { on, BG Crunch, 100, 15, 61, Pre }
+ EQ_A { on, 2, 0, 0, 4, 5, 5 }
+ EQ_B { on, 0, 0, 4, 3, 0, 2 }
+ ZnrA { on, ZNR, 4 }
+ ZnrB { on, ZNR, 3 }
+ Ext { off, 80, 80, 0 }
+ Comp { on, Compressor, 7, Fast, 10, 80 }
+ Wah { on, Booster, 5, 7, 7, 90 }
+ Cabi { on, large, center, Condenser }
+ Mod { off, Ensemble, 60, 10, 7, 50 }
+ Del { on, Echo, 480mS, 16, 8, 24 }
+ Rev { on, Arena, 15, 90, 8, 60 }
+ Arrm { 0, 0, 255, 0, 0 }
+ Pedal1 {
+ 1 ( 1, 0, 100, enabled )
+ 2 ( 0, 0, 100, disabled )
+ 3 ( 0, 0, 255, disabled )
+ 4 ( 0, 0, 255, disabled )
+ }
+ Pedal2V {
+ 1 ( 120, 5, 20, enabled )
+ 2 ( 0, 0, 255, disabled )
+ 3 ( 0, 0, 255, disabled )
+ 4 ( 0, 0, 255, disabled )
+ }
+ Pedal2H {
+ 1 ( 0, 0, 100 )
+ 2 ( 0, 0, 255 )
+ 3 ( 0, 0, 255 )
+ 4 ( 0, 0, 255 )
+ }
+}
+
+Accelerator Tube 8, Solid State 0
+Energizer Tube 6, Boost 7
+---------------------------------------------------
+G9EDpatch
+{
+ Name { Vibe  }
+ Comment {Robin Trower
+ }
+ PatchLevel { 60 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, WAH/EFX1 OnOff }
+ AmpSel { B }
+ AmpA { on, MS Crunch, 0, 17, 100, Post }
+ AmpB { on, HK Crunch, 60, 20, 40, Post }
+ EQ_A { on, 3, 3, 0, 0, 0, 0 }
+ EQ_B { on, 0, 0, 0, 2, 4, 4 }
+ ZnrA { on, ZNR, 4 }
+ ZnrB { on, ZNR, 1 }
+ Ext { off, 80, 80, 0 }
+ Comp { off, Compressor, 4, Slow, 6, 80 }
+ Wah { on, Booster, 3, 8, 9, 90 }
+ Cabi { on, middle, center, Condenser }
+ Mod { on, Vibrato, 40, 12, 8, 50 }
+ Del { off, Echo, 271mS, 18, 6, 26 }
+ Rev { on, Spring, 20, 1, 4, 70 }
+ Arrm { 0, 0, 255, 0, 0 }
+ Pedal1 {
+ 1 ( 8, 1, 10, enabled )
+ 2 ( 0, 0, 100, enabled )
+ 3 ( 0, 0, 100, disabled )
+ 4 ( 0, 0, 255, disabled )
+ }
+ Pedal2V {
+ 1 ( 8, 2, 10, disabled )
+ 2 ( 86, 0, 85, enabled )
+ 3 ( 0, 0, 100, enabled )
+ 4 ( 87, 89, 51, disabled )
+ }
+ Pedal2H {
+ 1 ( 156, 40, 50 )
+ 2 ( 0, 0, 100 )
+ 3 ( 0, 0, 255 )
+ 4 ( 0, 0, 255 )
+ }
+}
+
+Accelerator Tube 8, Solid State 0
+Energizer Tube 6, Boost 7
+---------------------------------------------------
+G9EDpatch
+{
+ Name { EVH Old }
+ Comment {
+ }
+ PatchLevel { 46 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, MOD/EFX2 OnOff }
+ AmpSel { B }
+ AmpA { on, DZ Clean, 0, 16, 70, Post }
+ AmpB { on, UK Blues, 60, 17, 80, Post }
+ EQ_A { on, -2, 0, 2, 0, 0, 0 }
+ EQ_B { on, -6, -2, 2, 0, 2, 0 }
+ ZnrA { on, ZNR, 3 }
+ ZnrB { on, ZNR, 4 }
+ Ext { off, 80, 80, 0 }
+ Comp { on, Compressor, 6, Fast, 8, 90 }
+ Wah { on, Booster, 4, 8, 10, 90 }
+ Cabi { on, large, center, Condenser }
+ Mod { off, Flanger, 100, 10, 6, 10 }
+ Del { on, AnalogDelay, 290mS, 18, 6, 40 }
+ Rev { on, Hall, 15, 45, 5, 60 }
+ Arrm { 0, 0, 255, 0, 0 }
+ Pedal1 {
+  1 ( 1, 0, 100, disabled )
+  2 ( 0, 0, 255, disabled )
+  3 ( 0, 0, 255, disabled )
+  4 ( 0, 0, 255, disabled )
+ }
+ Pedal2V {
+  1 ( 214, 0, 50, enabled )
+  2 ( 0, 0, 100, disabled )
+  3 ( 0, 0, 255, disabled )
+  4 ( 0, 0, 255, disabled )
+ }
+ Pedal2H {
+  1 ( 0, 0, 100 )
+  2 ( 0, 0, 255 )
+  3 ( 0, 0, 255 )
+  4 ( 0, 0, 255 )
+ }
+}
+
+Accelerator Tube 8, Solid State 0
+Energizer Tube 6, Boost 7
+---------------------------------------------------
+G9EDpatch
+{
+Name { The Deep }
+Comment {
+//This patch was made by TargetDrone//
+** http://giosso.s42.eatj.com/ZooM/ **
+
+}
+PatchLevel { 60 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B, MOD/EFX2 OnOff }
+AmpSel { A }
+AmpA { on, Z Stack, 60, 15, 80, Pre }
+AmpB { on, Fender Clean, 72, 15, 63, Pre }
+EQ_A { on, 6, 0, 0, 0, 0, 6 }
+EQ_B { on, 4, -2, -3, -2, 5, 6 }
+ZnrA { on, ZNR, 5 }
+ZnrB { on, ZNR, 1 }
+Ext { off, 80, 80, 0 }
+Comp { on, Compressor, 6, Fast, 8, 36 }
+Wah { off, AutoWah, Before, 8, 8, 80 }
+Cabi { off, small, center, Dynamic }
+Mod { on, StereoChorus, 40, 30, 7, 60 }
+Del { on, Delay, 609mS, 0, 8, 0 }
+Rev { on, Hall, 15, 47, 10, 24 }
+Arrm { 0, 0, 255, 0, 0 }
+Pedal1 {
+1 ( 1, 0, 100, disabled )
+2 ( 0, 0, 255, disabled )
+3 ( 0, 0, 255, disabled )
+4 ( 0, 0, 255, disabled )
+}
+Pedal2V {
+1 ( 221, 0, 25, enabled )
+2 ( 0, 0, 255, disabled )
+3 ( 0, 0, 255, disabled )
+4 ( 0, 0, 255, disabled )
+}
+Pedal2H {
+1 ( 220, 0, 14 )
+2 ( 207, 0, 15 )
+3 ( 0, 0, 255 )
+4 ( 0, 0, 255 )
+}
+}
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube ?, Boost ?
+---------------------------------------------------
+G9EDpatch
+{
+Name { Bro_Arms }
+Comment {
+// This patch was made by giasso
+// ** http://giasso.s42.eatj.com/ZooM/ **
+}
+PatchLevel { 52 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B,  MOD/EFX2 OnOff }
+AmpSel { A }
+AmpA { on, BG Crunch, 92, 15, 59, Pre }
+AmpB { on, JC Clean, 60, 15, 80, Pre }
+EQ_A { on, -1, 2, 7, 11, 3, 3 }
+EQ_B { on, -11, -7, 12, 7, 9, 5 }
+ZnrA { on, ZNR, 1 }
+ZnrB { off, ZNR, 14 }
+Ext  { off, 0 , 0 ,0}
+Comp { on, RackComp, 50, 2, 3, 54 }
+Wah { on, Booster, 3, 5, 6, 72 }
+Cabi { off, middle, center, Dynamic }
+Mod { off, Flanger, 76, 10, 0, 28 }
+Del { on, Delay, 200mS, 46, 3, 24 }
+Rev { on, Arena, 21, 57, 6, 70 }
+Arrm { 0, 0, 100, 0, 0 }
+Pedal1 {
+1 (1, 30, 100, disabled )
+2 (66, 0, 100, disabled )
+3 (149, 0, 50, disabled )
+4 (0, 0, 100, disabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube 5, Boost 5
+---------------------------------------------------
+G9EDpatch
+{
+Name { AutoLoop }
+Comment {
+// This patch was made by Marc937
+// Loop patch, 2-4 measures
+// ** http://giasso.s42.eatj.com/ZooM/ **
+}
+PatchLevel { 60 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B,  Hold Delay }
+AmpSel { B }
+AmpA { on, MS Crunch, 60, 15, 64, Pre }
+AmpB { on, UK Blues, 60, 15, 80, Pre }
+EQ_A { on, 4, 7, 4, 2, 8, 1 }
+EQ_B { on, 5, 0, 2, 4, 2, 4 }
+ZnrA { on, ZNR, 12 }
+ZnrB { on, ZNR, 13 }
+Ext  { off, 0 , 0 ,0}
+Comp { off, RackComp, 35, 3, 9, 86 }
+Wah { off, AutoWah, Before, 8, 8, 80 }
+Cabi { on, middle, middle, Dynamic }
+Mod { on, StereoChorus, 80, 30, 7, 60 }
+Del { on, Delay, quarterx16, 100, 10, 100 }
+Rev { off, Arena, 15, 90, 8, 12 }
+Arrm { 0, 100, 0, 0, 0 }
+Pedal1 {
+1 (207, 0, 50, disabled )
+2 (0, 0, 100, disabled )
+3 (0, 0, 100, disabled )
+4 (0, 0, 100, disabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube 4, Boost 6
+---------------------------------------------------
+G9EDpatch
+{
+ Name { Ambrdawn }
+ Comment {
+// Yngwie by Adel
+}
+ PatchLevel { 90 }
+ Tempo { 100 }
+ PedalFunction { PRE-AMP CH A/B, Manual Mode }
+ AmpSel { A }
+ AmpA { on, SD+M_Stk, 60, 15, 100, Pre }
+ AmpB { on, SD+M_Stk, 80, 10, 100, Pre }
+ EQ_A { on, 6, -12, -12, 6, 6, 6 }
+ EQ_B { on, 6, -12, -12, 6, 6, 6 }
+ ZnrA { on, ZNR, 5 }
+ ZnrB { on, ZNR, 5 }
+ Ext { off, 80, 80, 0 }
+ Comp { on, Compressor, 6, Slow, 8, 80 }
+ Wah { on, Booster, 3, 6, 8, 80 }
+ Cabi { off, small, center, Dynamic }
+ Mod { off, HarmonizedPitchShifter, 3, B, 6, 70 }
+ Del { on, Delay, quarter, 10, 5, 50 }
+ Rev { on, Hall, 10, 25, 5, 50 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+  1 ( 1, 0, 100, enabled )
+  2 ( 0, 0, 100, disabled )
+  3 ( 0, 0, 100, disabled )
+  4 ( 0, 0, 100, disabled )
+ }
+ Pedal2V {
+  1 ( 8, 0, 10, enabled )
+  2 ( 0, 0, 100, disabled )
+  3 ( 0, 0, 100, disabled )
+  4 ( 0, 0, 100, disabled )
+ }
+ Pedal2H {
+  1 ( 126, 0, 100 )
+  2 ( 0, 0, 50 )
+  3 ( 0, 0, 50 )
+  4 ( 0, 0, 50 )
+ }
+}
+
+Accelerator Tube 7, Solid State 3
+Energizer Tube 7, Boost 7
+---------------------------------------------------
+G9EDpatch
+{
+Name { VHalen2 }
+Comment {
+// aint talkin bout love by emago31
+
+}
+PatchLevel { 70 }
+Tempo { 136 }
+PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+AmpSel { B }
+AmpA { on, MS Crunch, 60, 15, 80, Pre }
+AmpB { on, PV Drive, 9, 21, 78, Pre }
+EQ_A { on, 0, 1, 0, -1, -4, -6 }
+EQ_B { on, 0, -1, -2, 0, -4, -8 }
+ZnrA { on, ZNR, 12 }
+ZnrB { on, DirtyGate, 4 }
+Ext  { off, 0 , 0 ,0}
+Comp { on, Compressor, 4, Fast, 7, 80 }
+Wah { off, Phaser, Before, 14, 3, 84 }
+Cabi { on, small, center, Dynamic }
+Mod { off, CombFilter, 18, 8, 10, 100 }
+Del { on, Delay, 230mS, 0, 0, 68 }
+Rev { on, TiledRoom, 21, 10, 9, 54 }
+Arrm { 0, 0, 100, 0, 0 }
+Pedal1 {
+1 (98, 9, 80, disabled )
+2 (74, 0, 100, disabled )
+3 (0, 0, 100, disabled )
+4 (0, 0, 100, disabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube 7, Boost 4
+---------------------------------------------------
+G9EDpatch
+{
+ Name { Zeppelin }
+ Comment {
+// This patch was made by SoundCaster
+// ** http://giasso.s42.eatj.com/ZooM/ ** 
+}
+ PatchLevel { 86 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, WAH/EFX1 OnOff }
+ AmpSel { B }
+ AmpA { on, HiWatt Clean, 60, 15, 80, Pre }
+ AmpB { on, MS #1959, 100, 15, 90, Pre }
+ EQ_A { on, 7, 0, 0, 12, 12, 0 }
+ EQ_B { on, 3, -12, 10, 12, 12, 8 }
+ ZnrA { on, ZNR, 8 }
+ ZnrB { on, ZNR, 5 }
+ Ext { off, 80, 80, 0 }
+ Comp { on, Compressor, 7, Slow, 7, 80 }
+ Wah { off, Phaser, Before, 7, 4, 70 }
+ Cabi { off, small, center, Dynamic }
+ Mod { off, Z-MonoPitch, 6, 6, 0, 0 }
+ Del { on, Delay, 460mS, 28, 6, 30 }
+ Rev { on, EarlyReflection, 30, 4, 9, 16 }
+ Arrm { 0, 0, 255, 0, 0 }
+ Pedal1 {
+  1 ( 1, 0, 100, enabled )
+  2 ( 0, 0, 100, enabled )
+  3 ( 0, 0, 100, disabled )
+  4 ( 0, 0, 100, disabled )
+ }
+ Pedal2V {
+  1 ( 207, 0, 50, enabled )
+  2 ( 0, 0, 100, disabled )
+  3 ( 0, 0, 100, disabled )
+  4 ( 0, 0, 100, disabled )
+ }
+ Pedal2H {
+  1 ( 0, 0, 100 )
+  2 ( 0, 0, 100 )
+  3 ( 0, 0, 100 )
+  4 ( 0, 0, 100 )
+ }
+}
+Accelerator Tube 0, Solid State 8
+Energizer Tube 4, Boost 4
+---------------------------------------------------
+G9EDpatch
+{
+ Name { DDT   }
+ Comment {
+// This patch was made by FUSIONGUITAR
+// ** http://giasso.s42.eatj.com/ZooM/ ** 
+}
+ PatchLevel { 96 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, BPM TAP }
+ AmpSel { A }
+ AmpA { on, PV Drive, 60, 25, 80, Pre }
+ AmpB { on, Rect Vintage, 60, 18, 80, Pre }
+ EQ_A { on, 2, 2, 2, 2, 1, 0 }
+ EQ_B { on, -1, 1, 4, 3, 3, 0 }
+ ZnrA { on, ZNR, 4 }
+ ZnrB { on, ZNR, 4 }
+ Ext { off, 80, 80, 0 }
+ Comp { on, Compressor, 5, Fast, 5, 80 }
+ Wah { off, AutoWah, Before, 8, 8, 80 }
+ Cabi { off, small, center, Dynamic }
+ Mod { on, Ensemble, 76, 17, 7, 60 }
+ Del { on, AnalogDelay, 580mS, 20, 6, 26 }
+ Rev { on, Hall, 5, 1, 10, 60 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+  1 ( 1, 0, 100, disabled )
+  2 ( 0, 0, 100, enabled )
+  3 ( 0, 0, 100, enabled )
+  4 ( 0, 0, 100, disabled )
+ }
+ Pedal2V {
+  1 ( 80, 0, 100, enabled )
+  2 ( 0, 0, 100, disabled )
+  3 ( 0, 0, 100, disabled )
+  4 ( 0, 0, 100, disabled )
+ }
+ Pedal2H {
+  1 ( 145, 0, 50 )
+  2 ( 0, 0, 100 )
+  3 ( 0, 0, 50 )
+  4 ( 0, 0, 50 )
+ }
+}
+Accelerator Tube 5, Solid State 5
+Energizer Tube 5, Boost 5
+---------------------------------------------------
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube ?, Boost ?
+---------------------------------------------------
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube ?, Boost ?
+---------------------------------------------------
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube ?, Boost ?
+---------------------------------------------------
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube ?, Boost ?
+---------------------------------------------------
+===================================================
+Converting a G7 patch to G9
+G7EDpatch
+{
+ Name { Ac/Dc 2 }
+ Comment {you can type anything here
+ }
+ PatchLevel { 50 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B }
+ AmpSel { A }
+ AmpA { on, US Blues, 76, 25, 100, Post }
+ AmpB { on, UK Blues, 73, 16, 84, Pre }
+ EQ_A { on, 2, 2, 6, 7, 6, 7 }
+ EQ_B { on, 5, 7, 10, 7, 10, 5 }
+ ZnrA { on, NoiseGate, 7 }
+ ZnrB { on, ZNR, 13 }
+ Comp { off, RackComp, 15, 5, 8, 82 }
+ Wah { off, Booster, 3, 7, 9, 80 }
+ Cabi { off, small, center, Dynamic }
+ Mod { off, StereoChorus, 32, 23, 9, 92 }
+ Del { off, Air, 1, 4, 8, 96 }
+ Rev { off, Spring, 4, 1, 8, 72 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal {
+  1 ( 8, 0, 10, disabled )
+  2 ( 109, 22, 49, disabled )
+  3 ( 170, 0, 29, disabled )
+  4 ( 0, 0, 100, disabled )
+ }
+}
+< NOTE : this is a G7 patch, you must change the "G7EDpatch" to "G9EDpatch"
+just to show the difference between the 7 & 9
+after "PEDAL settings" it is basically cut to use with G7, if you have a
+G7 patch using any text editor you can add a "1" to "Pedal" ( Pedal1 ) and
+this text to the end of the text file.
+>
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+then copy FROM "G" in "G9EDpatch" to the last "}" and paste it into the editor.
+also seeing how this works you can actually keep copies of your favorite settings for every individual
+effect or whatever and paste them into current patches, I wasn't aware of this copy to and from
+clippboard feature untill I came across Giasso's site. it's a good site but I don't really think one
+should be forced to rate a patch to have access to more patches. the video's are cool.
+here is the patch converted....
+----------------------------------------------
+G9EDpatch
+{
+ Name { Ac/Dc 2 }
+ Comment {you can type anything here
+ }
+ PatchLevel { 50 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B }
+ AmpSel { A }
+ AmpA { on, US Blues, 76, 25, 100, Post }
+ AmpB { on, UK Blues, 73, 16, 84, Pre }
+ EQ_A { on, 2, 2, 6, 7, 6, 7 }
+ EQ_B { on, 5, 7, 10, 7, 10, 5 }
+ ZnrA { on, NoiseGate, 7 }
+ ZnrB { on, ZNR, 13 }
+ Comp { off, RackComp, 15, 5, 8, 82 }
+ Wah { off, Booster, 3, 7, 9, 80 }
+ Cabi { off, small, center, Dynamic }
+ Mod { off, StereoChorus, 32, 23, 9, 92 }
+ Del { off, Air, 1, 4, 8, 96 }
+ Rev { off, Spring, 4, 1, 8, 72 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+  1 ( 8, 0, 10, disabled )
+  2 ( 109, 22, 49, disabled )
+  3 ( 170, 0, 29, disabled )
+  4 ( 0, 0, 100, disabled )
+ }
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+---------------------------------------------------
+don't forget, you may need to adjust the tubes
+
+Accelerator Tube ?, Solid State ?
+Energizer Tube ?, Boost ?
+---------------------------------------------------
+
+
+

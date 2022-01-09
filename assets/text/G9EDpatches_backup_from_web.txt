@@ -1,0 +1,3279 @@
+2. 	AC/DC 	
+3. 	Aerosmith 	
+7. 	Bad Company 
+8. 	Black Sabbath 	
+9. 	Brian May 	
+10. 	Bruce Springsteen 	
+11. 	Bryan Adams 	
+12. 	Carlos Santana 	
+15. 	Chuck Berry 
+16. 	Coldplay 	
+17. 	David Gilmour 	
+18. 	Deep Purple 
+19. 	Dire Straits 	
+21. 	Eric Clapton 	
+23. 	Gary Moore 
+26. 	Jimi Hendrix 	
+27. 	Joe Satriani 	
+30. 	Led Zeppelin 	
+57. 	Stevie Ray Vaughan 	
+58. 	Telephone 	
+59. 	The Beatles 	
+60. 	The Cult 	
+61. 	The Eagles 	
+62. 	The Edge (U2) 	
+
+
+
+2. 	AC/DC (7)--------------------------------------------------
+G9EDpatch
+{
+ Name { THE JACK }
+ Comment {
+// This patch was made by nico_tine
+
+}
+ PatchLevel { 28 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { B }
+ AmpA { on, Fender Clean, 0, 15, 100, Pre }
+ AmpB { on, UK Blues, 42, 23, 84, Pre }
+ EQ_A { on, 6, 1, -2, 4, 10, 11 }
+ EQ_B { on, 1, 0, -1, 1, 4, -2 }
+ ZnrA { on, NoiseGate, 7 }
+ ZnrB { on, ZNR, 13 }
+Ext  { off, 0 , 0 ,0}
+ Comp { off, RackComp, 15, 5, 8, 82 }
+ Wah { off, Booster, 3, 7, 9, 80 }
+ Cabi { on, small, center, Dynamic }
+ Mod { off, StereoChorus, 32, 23, 9, 92 }
+ Del { off, Air, 1, 4, 8, 96 }
+ Rev { on, Hall, 14, 10, 5, 24 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+  1 (53, 99, 44, disabled )
+  2 (52, 0, 100, disabled )
+  3 (0, 0, 100, disabled )
+  4 (0, 0, 100, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+A patch to play the Jack.
+Channel B is a crunch sound for the intro, chorus and solo.
+Channel A is a clean sound for the verses. Using the pedal, you can increase the gain a little.
+If you have ideas to improve it...
+
+Tube  	
+4
+	
+Boost 	
+0
+
+G9EDpatch
+{
+ Name { HARDASAR }
+ Comment {
+// This patch was made by nico_tine
+
+}
+ PatchLevel { 74 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { B }
+ AmpA { on, TS808, 0, 15, 80, Pre }
+ AmpB { on, MS Crunch, 2, 15, 80, Pre }
+ EQ_A { on, 12, 7, 5, 12, 10, 6 }
+ EQ_B { on, 5, -6, 8, 7, -1, -9 }
+ ZnrA { on, NoiseGate, 7 }
+ ZnrB { on, ZNR, 14 }
+Ext  { off, 0 , 0 ,0}
+ Comp { on, RackComp, 35, 8, 10, 74 }
+ Wah { off, Booster, 3, 7, 5, 100 }
+ Cabi { on, middle, middle, Condenser }
+ Mod { off, Ensemble, 88, 16, 7, 100 }
+ Del { off, Delay, 250mS, 40, 8, 50 }
+ Rev { on, Hall, 14, 10, 5, 10 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+  1 (1, 100, 80, disabled )
+  2 (74, 0, 100, disabled )
+  3 (0, 0, 0, disabled )
+  4 (0, 0, 0, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+A try for a patch to play Hard as a rock (the Ballbreaker album sound).
+Channel B is for Angus. Pedal increases gain to play the solo.
+Channel A is for Malcolm
+
+Tube  	
+4
+	
+Boost 	
+0
+
+G9EDpatch
+{
+ Name { Ac/Dc 2 }
+ Comment {
+// This patch was made by joss
+
+}
+ PatchLevel { 50 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { A }
+ AmpA { on, US Blues, 76, 25, 100, Post }
+ AmpB { on, UK Blues, 73, 16, 84, Pre }
+ EQ_A { on, 2, 2, 6, 7, 6, 7 }
+ EQ_B { on, 5, 7, 10, 7, 10, 5 }
+ ZnrA { on, NoiseGate, 7 }
+ ZnrB { on, ZNR, 13 }
+Ext  { off, 0 , 0 ,0}
+ Comp { off, RackComp, 15, 5, 8, 82 }
+ Wah { off, Booster, 3, 7, 9, 80 }
+ Cabi { off, small, center, Dynamic }
+ Mod { off, StereoChorus, 32, 23, 9, 92 }
+ Del { off, Air, 1, 4, 8, 96 }
+ Rev { off, Spring, 4, 1, 8, 72 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+  1 (8, 0, 10, disabled )
+  2 (143, 22, 49, disabled )
+  3 (224, 0, 29, disabled )
+  4 (0, 0, 100, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+AC/DC sound with blues amp for G7.
+Try chorus / enable booster sith wah / reverb/delay
+
+Tube  	
+0
+	
+Boost 	
+0
+
+G9EDpatch
+{
+ Name { AC/DC  }
+ Comment {
+// This patch was made by joss
+
+}
+ PatchLevel { 56 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { A }
+ AmpA { on, MS Crunch, 30, 26, 65, Pre }
+ AmpB { on, MS Crunch, 79, 29, 57, Pre }
+ EQ_A { on, 8, 4, 6, 12, 10, 6 }
+ EQ_B { on, 12, 4, 12, 7, 5, 12 }
+ ZnrA { on, NoiseGate, 7 }
+ ZnrB { on, DirtyGate, 6 }
+Ext  { off, 0 , 0 ,0}
+ Comp { on, RackComp, 35, 8, 10, 80 }
+ Wah { off, Booster, 3, 7, 5, 100 }
+ Cabi { off, middle, middle, Condenser }
+ Mod { off, Ensemble, 88, 16, 7, 100 }
+ Del { off, Delay, 250mS, 40, 8, 50 }
+ Rev { on, Hall, 14, 10, 5, 10 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+  1 (0, 0, 0, disabled )
+  2 (0, 0, 0, disabled )
+  3 (0, 0, 0, disabled )
+  4 (0, 0, 0, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+G9EDpatch
+{
+ Name { Highway }
+ Comment {
+// This patch was made by Ccool28
+
+}
+ PatchLevel { 90 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  Mute OnOff }
+ AmpSel { A }
+ AmpA { on, Z Stack, 60, 15, 97, Pre }
+ AmpB { on, BigMuff, 40, 5, 80, Pre }
+ EQ_A { on, 12, 12, 12, 12, 0, 12 }
+ EQ_B { on, -2, 0, -2, -1, -1, 1 }
+ ZnrA { on, NoiseGate, 6 }
+ ZnrB { on, NoiseGate, 8 }
+Ext  { off, 0 , 0 ,0}
+ Comp { off, Compressor, 5, Slow, 5, 80 }
+ Wah { off, Phaser, Before, quarterx2, 2, 80 }
+ Cabi { off, small, center, Dynamic }
+ Mod { on, Chorus, 40, 1, 5, 34 }
+ Del { off, ReverseDelay, 189mS, 10, 4, 20 }
+ Rev { on, Hall, 10, 45, 5, 60 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+ 1 (220, 0, 29, disabled )
+ 2 (0, 0, 100, disabled )
+ 3 (0, 0, 100, disabled )
+ 4 (0, 0, 100, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Energizer
+Tube 	
+5
+	
+Boost 	
+5
+
+G9EDpatch
+{
+ Name { AC/DC }
+ Comment {
+// This patch was made by joss
+
+}
+ PatchLevel { 56 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { B }
+ AmpA { on, MS Crunch, 30, 25, 63, Pre }
+ AmpB { on, MS Crunch, 79, 29, 57, Pre }
+ EQ_A { on, 12, 4, 6, 11, 5, 6 }
+ EQ_B { on, 12, 4, 12, 7, 5, 9 }
+ ZnrA { on, NoiseGate, 7 }
+ ZnrB { on, DirtyGate, 6 }
+Ext  { off, 0 , 0 ,0}
+ Comp { on, Compressor, 5, Slow, 5, 80 }
+ Wah { on, Booster, 3, 7, 5, 100 }
+ Cabi { off, middle, middle, Condenser }
+ Mod { off, Flanger, 26, 7, 4, 14 }
+ Del { off, Delay, 250mS, 40, 8, 50 }
+ Rev { on, Hall, 14, 10, 5, 10 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+ 1 (0, 0, 0, disabled )
+ 2 (0, 0, 0, disabled )
+ 3 (0, 0, 0, disabled )
+ 4 (0, 0, 0, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Energizer
+Tube 	
+6
+	
+Boost 	
+6
+
+3. 	Aerosmith (1)	------------------------------------
+G9EDpatch
+{
+ Name { AEROSMIT }
+ Comment {
+// This patch was made by nico_tine
+
+}
+ PatchLevel { 20 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { A }
+ AmpA { on, UK Blues, 100, 25, 80, Pre }
+ AmpB { on, UK Blues, 29, 25, 80, Pre }
+ EQ_A { on, -1, 3, 4, 8, 0, -6 }
+ EQ_B { on, -1, 3, 3, 8, 0, -6 }
+ ZnrA { on, ZNR, 10 }
+ ZnrB { on, ZNR, 10 }
+Ext  { off, 0 , 0 ,0}
+ Comp { off, Compressor, 6, Fast, 8, 80 }
+ Wah { off, Tremolo, 66, 40, TRI1, 60 }
+ Cabi { on, middle, center, Condenser }
+ Mod { off, Chorus, 40, 25, 7, 50 }
+ Del { off, Delay, 200mS, 2, 8, 4 }
+ Rev { on, Hall, 14, 10, 5, 20 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+  1 (0, 0, 100, disabled )
+  2 (0, 0, 100, disabled )
+  3 (0, 0, 100, disabled )
+  4 (0, 0, 100, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+A patch for Aerosmtih's earlier sound.
+Channel A is a great crunch I use to play Mama Kin
+Channel B with lower gain is used to play Dream on.
+I think there's a lot to improve. Especially for the solo parts where the sound needs more colouration
+
+Energizer
+Tube 	
+4
+	
+Boost 	
+0
+
+Bad Comany--------------------------------------------------------
+G9EDpatch
+{
+ Name { FeelLike }
+ Comment {
+// This patch was made by Fridge
+
+}
+ PatchLevel { 44 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, WAH/EFX1 OnOff }
+ AmpSel { B }
+ AmpA { on, BG Crunch, 22, 12, 92, Pre }
+ AmpB { on, Aco.Sim, 8, 8, 36, Pre }
+ EQ_A { on, 4, 7, 8, 5, 8, -12 }
+ EQ_B { on, 1, 4, 7, 11, 2, -12 }
+ ZnrA { on, NoiseGate, 7 }
+ ZnrB { on, NoiseGate, 4 }
+ Ext { off, 0, 0, 0 }
+ Comp { on, RackComp, 35, 3, 9, 90 }
+ Wah { off, Booster, 3, 6, 10, 100 }
+ Cabi { off, small, center, Condenser }
+ Mod { on, HarmonizedPitchShifter, -4, D, 8, 70 }
+ Del { on, Echo, 360mS, 20, 6, 4 }
+ Rev { on, Hall, 10, 45, 5, 60 }
+ Arrm { 0, 0, 255, 0, 0 }
+ Pedal1 {
+ 1 ( 1, 0, 100, disabled )
+ 2 ( 0, 0, 100, disabled )
+ 3 ( 0, 0, 100, disabled )
+ 4 ( 0, 0, 100, disabled )
+ }
+ Pedal2V {
+ 1 ( 9, 39, 49, enabled )
+ 2 ( 174, 0, 50, enabled )
+ 3 ( 67, 72, 99, disabled )
+ 4 ( 139, 0, 27, disabled )
+ }
+ Pedal2H {
+ 1 ( 0, 0, 0 )
+ 2 ( 0, 0, 0 )
+ 3 ( 0, 0, 0 )
+ 4 ( 0, 0, 0 )
+ }
+}
+
+Description 
+This is for Feel Like Makin' Love
+
+Channel B for verse/intro
+Pedal controls pitch shifter for harmonised solo in middle.
+Channel A for distorted parts. For solo at end of song, push pedal all the way down to activate booster and turn off harmoniser
+
+pick up switching alternates from neck for verse and clean harmonised solo to bridge for distorted parts...
+
+Set-Up 
+Guitar Used  :  Epiphone Les Paul Custom  
+  
+Accelerator  
+Tube 6 
+Solid State 6 
+
+Energizer  
+Tube 4 
+Boost 0 
+ 
+ 
+
+Black Sabbath----------------------------------------------------
+G9EDpatch
+{
+ Name { Idol  }
+ Comment {
+// This patch was made by jpguitar
+
+}
+ PatchLevel { 70 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, Delay TAP }
+ AmpSel { A }
+ AmpA { on, PV Drive, 60, 15, 82, Pre }
+ AmpB { on, Fender Clean, 37, 15, 84, Pre }
+ EQ_A { on, 12, -6, 1, 4, -1, -1 }
+ EQ_B { on, 6, 1, 4, -4, -3, 7 }
+ ZnrA { on, ZNR, 4 }
+ ZnrB { on, ZNR, 4 }
+ Ext { off, 80, 80, 0 }
+ Comp { on, Compressor, 4, Fast, 8, 40 }
+ Wah { on, Z-Oscillator, A1, 8, 0, 0 }
+ Cabi { on, small, center, Dynamic }
+ Mod { on, Chorus, 2, 2, 1, 0 }
+ Del { off, PingPongDelay, 250mS, 20, 8, 20 }
+ Rev { off, PanningDelay, 50mS, 0, 5, L50 }
+ Arrm { 0, 0, 255, 0, 0 }
+ Pedal1 {
+ 1 ( 0, 0, 100, disabled )
+ 2 ( 0, 0, 100, disabled )
+ 3 ( 0, 0, 100, disabled )
+ 4 ( 0, 0, 100, disabled )
+ }
+ Pedal2V {
+ 1 ( 0, 0, 100, disabled )
+ 2 ( 0, 0, 100, disabled )
+ 3 ( 0, 0, 100, disabled )
+ 4 ( 0, 0, 100, disabled )
+ }
+ Pedal2H {
+ 1 ( 0, 0, 100 )
+ 2 ( 0, 0, 100 )
+ 3 ( 0, 0, 100 )
+ 4 ( 0, 0, 100 )
+ }
+}
+Description 
+Patch Black Sabbath in The Eternal Idol
+
+Set-Up 
+Guitar Used  :  lag rockline  
+Switch Position: :  Switch Down   
+
+Accelerator  
+Tube 6 
+Solid State 6 
+  
+Energizer  
+Tube 5 
+Boost 6 
+ 
+Brian May---------------------------------------------------------
+
+G9EDpatch
+{
+ Name { Brian }
+ Comment {
+// This patch was made by giasso
+
+}
+ PatchLevel { 50 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  MOD/EFX2 OnOff }
+ AmpSel { B }
+ AmpA { on, Fender Clean, 60, 15, 69, Pre }
+ AmpB { on, MS Drive, 54, 20, 51, Pre }
+ EQ_A { off, 2, 0, 0, 0, 0, 0 }
+ EQ_B { on, -4, -8, 9, 8, 1, -2 }
+ ZnrA { on, ZNR, 10 }
+ ZnrB { off, NoiseGate, 10 }
+Ext  { off, 0 , 0 ,0}
+ Comp { off, Compressor, 2, Fast, 8, 28 }
+ Wah { off, Booster, 5, 5, 5, 100 }
+ Cabi { off, small, center, Dynamic }
+ Mod { on, StereoChorus, 80, 30, 7, 26 }
+ Del { on, Delay, 200mS, 20, 8, 4 }
+ Rev { off, Room, 18, 5, 5, 60 }
+ Arrm { 0, 0, 255, 0, 0 }
+ Pedal1 {
+ 1 (1, 0, 100, disabled )
+ 2 (8, 0, 10, disabled )
+ 3 (0, 0, 100, disabled )
+ 4 (0, 0, 100, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Description 
+Test Brian May Sound ....
+ 
+Set-Up 
+Guitar Used  :  Yamaha EG112  
+Switch Position: :  Switch Down half way  
+
+Energizer  
+Tube 4 
+Boost 4 
+ 
+G9EDpatch
+{
+ Name { BriHoRIz }
+ Comment {
+// This patch was made by spelldazer
+
+}
+ PatchLevel { 74 }
+ Tempo { 90 }
+ PedalFunction { PRE-AMP CH A/B, Hold Delay }
+ AmpSel { A }
+ AmpA { on, JC Clean, 20, 15, 50, Pre }
+ AmpB { on, VOX Clean, 14, 15, 31, Pre }
+ EQ_A { on, 0, 8, 0, 0, 1, 5 }
+ EQ_B { on, 4, 4, 7, 12, 0, -4 }
+ ZnrA { off, DirtyGate, 10 }
+ ZnrB { on, ZNR, 4 }
+ Ext { off, 80, 80, 0 }
+ Comp { off, Compressor, 3, Slow, 7, 88 }
+ Wah { on, Booster, 5, 0, 3, 80 }
+ Cabi { on, large, edge, Dynamic }
+ Mod { on, StereoChorus, 80, 30, 7, 60 }
+ Del { on, Echo, 350mS, 30, 0, 20 }
+ Rev { off, Hall, 4, 45, 5, 60 }
+ Arrm { 0, 0, 255, 0, 0 }
+ Pedal1 {
+  1 ( 1, 0, 100, disabled )
+  2 ( 0, 0, 255, disabled )
+  3 ( 0, 0, 255, disabled )
+  4 ( 0, 0, 255, disabled )
+ }
+ Pedal2V {
+  1 ( 142, 0, 50, enabled )
+  2 ( 220, 0, 29, disabled )
+  3 ( 0, 0, 255, disabled )
+  4 ( 0, 0, 255, disabled )
+ }
+ Pedal2H {
+  1 ( 210, 0, 50 )
+  2 ( 0, 0, 255 )
+  3 ( 0, 0, 255 )
+  4 ( 1, 0, 100 )
+ }
+}
+
+Description 
+A patch I created to record my version of Brian May's "Last Horizon" instrumental. You will have to fiddle around with the gain and the tub settings to match your guitar.
+ 
+Set-Up 
+Guitar Used  :  Guild 93 Red Special with all PUs in phase  
+
+Accelerator  
+Tube 0 
+Solid State 0 
+
+Energizer  
+Tube 0 
+Boost 0 
+
+10. 	 Bruce Springsteen (1)-----------------------------
+
+G9EDpatch
+{
+ Name { TheBoss }
+ Comment {
+// This patch was made by Fridge
+
+}
+ PatchLevel { 90 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, PRE-AMP CH A/B }
+ AmpSel { B }
+ AmpA { on, TS+F_Cmb, 60, 27, 74, Pre }
+ AmpB { on, Z OD, 31, 18, 70, Pre }
+ EQ_A { on, 2, 2, 6, 10, -12, -12 }
+ EQ_B { on, 2, 1, 6, 6, 12, -12 }
+ ZnrA { on, ZNR, 8 }
+ ZnrB { on, ZNR, 6 }
+ Ext { off, 0, 0, 0 }
+ Comp { on, Compressor, 6, Fast, 8, 80 }
+ Wah { off, Booster, 4, 6, 6, 100 }
+ Cabi { off, large, center, Dynamic }
+ Mod { on, PitchShifter, 2, 8, 0, 100 }
+ Del { off, Air, 10, 6, 8, 40 }
+ Rev { on, Hall, 10, 45, 5, 60 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+ 1 ( 1, 0, 100, disabled )
+ 2 ( 0, 0, 100, disabled )
+ 3 ( 0, 0, 100, disabled )
+ 4 ( 0, 0, 100, disabled )
+ }
+ Pedal2V {
+ 1 ( 130, 0, 30, disabled )
+ 2 ( 0, 0, 0, disabled )
+ 3 ( 0, 0, 0, disabled )
+ 4 ( 0, 0, 0, disabled )
+ }
+ Pedal2H {
+ 1 ( 0, 0, 0 )
+ 2 ( 0, 0, 0 )
+ 3 ( 0, 0, 0 )
+ 4 ( 0, 0, 0 )
+ }
+}
+
+Radio Nowhere.
+
+Pitch shifter means this can be played without capo on second fret.
+
+Channel B for rhythm - pedal up for verse riff, pedal down adds gain for dynamics in chorus etc.
+
+Channe A is for lead fills/solo.
+
+Accelerator
+Tube 	
+6
+	
+Solid State 	
+6
+	
+
+
+Energizer
+Tube 	
+4
+	
+Boost 	
+0
+
+Bryan Adams------------------------------------------------------
+G9EDpatch
+{
+ Name { Summer69 }
+ Comment {
+// This patch was made by Fridge
+
+}
+ PatchLevel { 40 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, DELAY OnOff }
+ AmpSel { B }
+ AmpA { on, Z Combo, 80, 15, 90, Pre }
+ AmpB { on, Centaur, 19, 18, 92, Pre }
+ EQ_A { on, 6, 6, 5, 9, 4, -12 }
+ EQ_B { on, 0, 4, 9, 6, 3, -12 }
+ ZnrA { on, NoiseGate, 7 }
+ ZnrB { on, ZNR, 15 }
+ Ext { off, 0, 0, 0 }
+ Comp { on, Compressor, 6, Fast, 7, 100 }
+ Wah { off, PedalCryBaby, Before, 15, 0, 70 }
+ Cabi { off, small, middle, Condenser }
+ Mod { on, Ensemble, 66, 18, 5, 80 }
+ Del { off, Echo, 360mS, 20, 8, 46 }
+ Rev { on, Hall, 10, 45, 5, 60 }
+ Arrm { 0, 0, 0, 0, 0 }
+ Pedal1 {
+ 1 ( 1, 0, 100, disabled )
+ 2 ( 0, 0, 100, enabled )
+ 3 ( 0, 0, 100, disabled )
+ 4 ( 0, 0, 100, disabled )
+ }
+ Pedal2V {
+ 1 ( 0, 0, 0, disabled )
+ 2 ( 0, 0, 0, disabled )
+ 3 ( 0, 0, 0, disabled )
+ 4 ( 0, 0, 0, disabled )
+ }
+ Pedal2H {
+ 1 ( 0, 0, 0 )
+ 2 ( 0, 0, 0 )
+ 3 ( 0, 0, 0 )
+ 4 ( 0, 0, 0 )
+ }
+}
+Description 
+Summer of 69
+
+Channel B for verse/chorus
+Channel A for lead at end
+ 
+Set-Up 
+Guitar Used  :  Epiphone Les Paul Custom  
+
+Accelerator  
+Tube 6 
+Solid State 6 
+
+Energizer  
+Tube 4 
+Boost 0 
+  
+ 
+G9EDpatch
+{
+ Name { Run2You }
+ Comment {
+// This patch was made by Fridge
+
+}
+ PatchLevel { 56 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, PRE-AMP CH A/B }
+ AmpSel { A }
+ AmpA { on, Z Combo, 80, 15, 60, Pre }
+ AmpB { on, Centaur, 19, 15, 77, Pre }
+ EQ_A { on, 6, 6, 5, 9, 4, -12 }
+ EQ_B { on, 0, 2, 6, 4, 3, -12 }
+ ZnrA { on, NoiseGate, 7 }
+ ZnrB { on, ZNR, 15 }
+ Ext { off, 0, 0, 0 }
+ Comp { on, Compressor, 6, Fast, 7, 100 }
+ Wah { off, Booster, 3, 6, 6, 80 }
+ Cabi { off, small, middle, Condenser }
+ Mod { on, Ensemble, 66, 18, 5, 80 }
+ Del { on, Echo, 360mS, 20, 8, 46 }
+ Rev { on, Room, 11, 36, 5, 60 }
+ Arrm { 0, 0, 0, 0, 0 }
+ Pedal1 {
+ 1 ( 1, 0, 100, disabled )
+ 2 ( 0, 0, 100, disabled )
+ 3 ( 0, 0, 100, disabled )
+ 4 ( 0, 0, 100, disabled )
+ }
+ Pedal2V {
+ 1 ( 71, 49, 99, disabled )
+ 2 ( 211, 3, 23, disabled )
+ 3 ( 145, 0, 40, disabled )
+ 4 ( 70, 60, 100, disabled )
+ }
+ Pedal2H {
+ 1 ( 0, 0, 0 )
+ 2 ( 0, 0, 0 )
+ 3 ( 0, 0, 0 )
+ 4 ( 0, 0, 0 )
+ }
+}
+ 
+Description 
+For Run To You (distorted parts/lead)
+
+Just use channel A
+
+Pedal fully up for verse/chorus
+Pedal fully down for lead parts
+ 
+Set-Up 
+Guitar Used  :  Epiphone Les Paul Custom  
+
+Accelerator  
+Tube 6 
+Solid State 6 
+
+Energizer  
+Tube 4 
+Boost 0 
+
+Carlos Santana-----------------------------------------------------
+G9EDpatch
+{
+ Name { Flor_d }
+ Comment {
+// This patch was made by merlin
+
+}
+ PatchLevel { 40 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { A }
+ AmpA { on, HiWatt Clean, 67, 23, 64, Pre }
+ AmpB { on, HiWatt Clean, 67, 23, 64, Pre }
+ EQ_A { on, 6, 7, 10, 7, 6, 6 }
+ EQ_B { on, 6, 7, 10, 7, 6, 6 }
+ ZnrA { on, ZNR, 7 }
+ ZnrB { on, ZNR, 7 }
+Ext  { off, 0 , 0 ,0}
+ Comp { on, Compressor, 8, Fast, 7, 70 }
+ Wah { off, AutoResonance, Before, -5, 6, 58 }
+ Cabi { on, middle, center, Dynamic }
+ Mod { off, StereoChorus, 70, 20, 7, 100 }
+ Del { off, Echo, 27mS, 2, 2, 24 }
+ Rev { on, Spring, 10, 58, 2, 28 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+ 1 (1, 0, 100, disabled )
+ 2 (0, 0, 100, disabled )
+ 3 (0, 0, 100, disabled )
+ 4 (0, 0, 100, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Description 
+Flor d'Luna
+
+Absolutely essential to use a neck humbucker. Depends on the tone of your pickup. I've no doubt the original was recorded on a Yamaha SG2000, but I can't figure-out what amp was used; the sleeve notes for "Moonflower" mention Peavey and Mesa (Boogie) Engineering. My pickups are just "Duncan" designed Korean-made. particularly high output pickups aren't going to do the trick.
+ 
+Set-Up 
+Guitar Used  :  JJ Retro HB  
+Switch Position: :  Switch Up  
+
+Energizer  
+Tube 5 
+Boost 7 
+
+G9EDpatch
+{
+ Name { europa  }
+ Comment {
+// This patch was made by Ccool28
+
+}
+ PatchLevel { 80 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { A }
+ AmpA { on, US Blues, 100, 15, 88, Pre }
+ AmpB { on, Tweed Bass, 60, 15, 80, Pre }
+ EQ_A { on, 3, 7, 6, -2, 5, 12 }
+ EQ_B { on, 5, 3, 0, -1, 0, -1 }
+ ZnrA { on, ZNR, 5 }
+ ZnrB { on, ZNR, 15 }
+Ext  { off, 0 , 0 ,0}
+ Comp { off, Compressor, 3, Slow, 7, 88 }
+ Wah { on, PedalCryBaby, Before, 15, 0, 70 }
+ Cabi { off, middle, center, Condenser }
+ Mod { off, Chorus, 62, 26, 5, 4 }
+ Del { on, Delay, 559mS, 50, 5, 20 }
+ Rev { on, Hall, 20, 30, 5, 42 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+  1 (27, 0, 49, disabled )
+  2 (0, 0, 100, disabled )
+  3 (0, 0, 100, disabled )
+  4 (0, 0, 50, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Description 
+Made for Europa song
+ 
+Set-Up 
+Guitar Used  :    
+
+Energizer  
+Tube 0 
+Boost 0 
+ 
+G9EDpatch
+{
+ Name { Santana }
+ Comment {
+// This patch was made by giasso
+
+}
+ PatchLevel { 70 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { A }
+ AmpA { on, Fender Clean, 60, 15, 80, Pre }
+ AmpB { on, BG Crunch, 57, 22, 96, Pre }
+ EQ_A { on, 0, 2, 6, 2, 2, -3 }
+ EQ_B { on, 7, 3, 5, 6, 5, -2 }
+ ZnrA { on, ZNR, 10 }
+ ZnrB { on, NoiseGate, 15 }
+Ext  { off, 0 , 0 ,0}
+ Comp { off, RackComp, 39, 5, 6, 68 }
+ Wah { on, Phaser, Before, 10, 2, 100 }
+ Cabi { off, large, center, Dynamic }
+ Mod { on, Flanger, 76, 0, 3, 54 }
+ Del { on, PingPongDelay, 10mS, 20, 8, 92 }
+ Rev { on, Arena, 12, 90, 8, 60 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+ 1 (14, 0, 50, enabled )
+ 2 (0, 0, 100, disabled )
+ 3 (0, 0, 100, disabled )
+ 4 (0, 0, 100, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Description 
+Part Clean of Europa
+ 
+Set-Up 
+Guitar Used  :  Fender Stratocaster Standard Mexican  
+Switch Position: :  Switch Down   
+
+Energizer  
+Tube 4 
+Boost 4 
+
+Chuck Berry-----------------------------------------------------------
+G9EDpatch
+{
+ Name { jBeGood }
+ Comment {
+// This patch was made by giasso
+
+}
+ PatchLevel { 80 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  Delay TAP }
+ AmpSel { B }
+ AmpA { on, VOX Clean, 22, 9, 18, Pre }
+ AmpB { on, UK Blues, 35, 30, 56, Pre }
+ EQ_A { on, 5, 2, 0, 2, 0, 2 }
+ EQ_B { on, 9, -8, 11, -9, 9, 1 }
+ ZnrA { on, ZNR, 10 }
+ ZnrB { off, ZNR, 16 }
+Ext  { off, 0 , 0 ,0}
+ Comp { off, Limiter, 10, 7, 10, 80 }
+ Wah { off, AutoWah, Before, 8, 8, 80 }
+ Cabi { off, small, center, Dynamic }
+ Mod { off, Delay, 240mS, 18, 8, 0 }
+ Del { off, Delay, 600mS, 0, 5, 42 }
+ Rev { on, Arena, 9, 60, 8, 60 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+ 1 (162, 0, 50, disabled )
+ 2 (0, 0, 100, disabled )
+ 3 (0, 0, 100, disabled )
+ 4 (0, 0, 100, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Description 
+Just For Jonny Be Good ;)
+
+Play with pick near the bridge!!!!
+ 
+Set-Up 
+Guitar Used  :  Fender Stratocaster Standard Mexican  
+Switch Position: :  Switch Down   
+
+Energizer  
+Tube 5 
+Boost 6 
+ 
+
+16. 	 Coldplay (2)------------------------------------------
+G9EDpatch
+{
+ Name { St-Swing }
+ Comment {
+// This patch was made by wachimorris
+
+}
+ PatchLevel { 76 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { A }
+ AmpA { on, FD Clean,Tone 15, Pre, low-mid 2, harmonics 0 }
+ AmpB { on, Tweedbass, 79, 21, 1, Pre }
+ EQ_A { off, 1, 0, 10, 9, 6, 4 }
+ EQ_B { off, 5, 3, 0, -1, 0, -1 }
+ ZnrA { on, NoiseGate, 10 }
+ ZnrB { on, ZNR, 13 }
+Ext  { off, 0 , 0 ,0}
+ Comp { off, Compressor, 3, Fast, 5, 62 }
+ Wah { off, Booster, 3, 6, 8, 80 }
+ Cabi{ on, large, middle, Dynamic }
+ Mod { off, Delay, 360mS, 4, 8, 40 }
+ Del { on, Delay, 360mS, 40, 8, 50 }
+ Rev { on, Hall, 10, 1, 5, 18 }
+ Arrm { Not Assing }
+ Pedal1 {
+ 1 ReverseDelay,(,0,100,disabled)
+ 2 Not Assing,(0, 0, 100, disabled )
+ 3 Not Assing,(0, 0, 100, disabled )
+ 4 Not Assing,(0, 0, 100, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Music Coldplay - Strawberry Swing
+Electric guitar
+Delay and Reverb
+
+Energizer
+Tube 	
+5
+	
+Boost 	
+4
+
+G9EDpatch
+{
+ Name { JB-RAT  }
+ Comment {
+// This patch was made by midipal
+
+}
+ PatchLevel { 80 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { A }
+ AmpA { on, RAT, 80, 20, 80, Post }
+ AmpB { on, RAT, 80, 20, 80, Post }
+ EQ_A { on, 12, -3, 0, 0, 6, 0 }
+ EQ_B { on, 8, 12, 12, 8, 6, 8 }
+ ZnrA { on, NoiseGate, 5 }
+ ZnrB { on, NoiseGate, 10 }
+Ext  { off, 0 , 0 ,0}
+ Comp { on, Limiter, 10, 7, 10, 80 }
+ Wah { off, Booster, 2, 6, 8, 80 }
+ Cabi { off, middle, middle, Condenser }
+ Mod { off, Chorus, 0, 1, 0, 2 }
+ Del { off, Delay, 1mS, 0, 0, 0 }
+ Rev { on, EarlyReflection, 10, 10, 6, 50 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+  1 (9, 0, 49, enabled )
+  2 (0, 0, 100, disabled )
+  3 (0, 0, 100, disabled )
+  4 (0, 0, 100, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+ 	 Distortion for Violet Hill
+
+Energizer
+Tube 	
+5
+	
+Boost 	
+6
+
+
+Dave Gilmore-------------------------------------------------------
+
+G9EDpatch
+{
+ Name { Gilmour1 }
+ Comment {
+// This patch was made by mike_a
+
+}
+ PatchLevel { 40 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, MOD/EFX2 OnOff }
+ AmpSel { A }
+ AmpA { on, BigMuff, 20, 20, 65, Pre }
+ AmpB { on, BG Crunch, 100, 15, 61, Pre }
+ EQ_A { on, 2, 0, 0, 4, 5, 5 }
+ EQ_B { on, 0, 0, 4, 3, 0, 2 }
+ ZnrA { on, ZNR, 4 }
+ ZnrB { on, ZNR, 3 }
+ Ext { off, 80, 80, 0 }
+ Comp { on, Compressor, 7, Fast, 10, 80 }
+ Wah { on, Booster, 5, 7, 7, 90 }
+ Cabi { on, large, center, Condenser }
+ Mod { off, Ensemble, 60, 10, 7, 50 }
+ Del { on, Echo, 480mS, 16, 8, 24 }
+ Rev { on, Arena, 15, 90, 8, 60 }
+ Arrm { 0, 0, 255, 0, 0 }
+ Pedal1 {
+ 1 ( 1, 0, 100, enabled )
+ 2 ( 0, 0, 100, disabled )
+ 3 ( 0, 0, 255, disabled )
+ 4 ( 0, 0, 255, disabled )
+ }
+ Pedal2V {
+ 1 ( 120, 5, 20, enabled )
+ 2 ( 0, 0, 255, disabled )
+ 3 ( 0, 0, 255, disabled )
+ 4 ( 0, 0, 255, disabled )
+ }
+ Pedal2H {
+ 1 ( 0, 0, 100 )
+ 2 ( 0, 0, 255 )
+ 3 ( 0, 0, 255 )
+ 4 ( 0, 0, 255 )
+ }
+}
+
+Description 
+David Gilmour "Comfortably Numb" Sound.
+The Second part is with the Chorus on (FunctionB)
+ 
+Set-Up 
+Guitar Used  :  Hamer Humbucking  
+Switch Position: :  Switch Down   
+
+Accelerator  
+Tube 8 
+Solid State 0 
+
+Energizer  
+Tube 6 
+Boost 7 
+ 
+G9EDpatch
+{
+ Name { P-FLOYD }
+ Comment {
+// This patch was made by Rock
+
+}
+ PatchLevel { 80 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, WAH/EFX1 OnOff }
+ AmpSel { A }
+ AmpA { on, Fender Clean, 38, 15, 80, Post }
+ AmpB { on, BG Crunch, 80, 15, 80, Pre }
+ EQ_A { on, 0, 4, 0, 2, 6, 6 }
+ EQ_B { on, 0, 4, 0, 2, 0, 0 }
+ ZnrA { on, ZNR, 3 }
+ ZnrB { on, ZNR, 3 }
+ Ext { off, 80, 80, 0 }
+ Comp { on, RackComp, 40, 6, 7, 80 }
+ Wah { off, PedalVox, Before, 15, 0, 70 }
+ Cabi { on, large, middle, Dynamic }
+ Mod { on, DynamicFlanger, 60, 12, 7, 7 }
+ Del { on, AnalogDelay, quarter, 30, 5, 40 }
+ Rev { on, ModernSpring, 21, 69, 8, 26 }
+ Arrm { 0, 0, 255, 0, 0 }
+ Pedal1 {
+  1 ( 24, 0, 49, enabled )
+  2 ( 0, 0, 100, disabled )
+  3 ( 0, 0, 100, disabled )
+  4 ( 0, 0, 100, disabled )
+ }
+ Pedal2V {
+  1 ( 169, 0, 50, disabled )
+  2 ( 231, 0, 20, disabled )
+  3 ( 215, 20, 30, disabled )
+  4 ( 0, 0, 100, disabled )
+ }
+ Pedal2H {
+  1 ( 214, 0, 23 )
+  2 ( 0, 0, 100 )
+  3 ( 0, 0, 100 )
+  4 ( 0, 0, 100 )
+ }
+}
+
+Description 
+Brain Damage from Dark Side of the Moon (A) intro (B) lead
+ 
+Set-Up 
+Guitar Used  :  Les Paul  
+Switch Position: :  Switch Down   
+
+Accelerator  
+Tube 7 
+Solid State 7 
+
+Energizer  
+Tube 7 
+Boost 7 
+ 
+G9EDpatch
+{
+ Name { Mother }
+ Comment {
+// This patch was made by giasso
+
+}
+ PatchLevel { 52 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  MOD/EFX2 OnOff }
+ AmpSel { A }
+ AmpA { on, BG Crunch, 60, 26, 63, Pre }
+ AmpB { on, JC Clean, 60, 15, 80, Pre }
+ EQ_A { on, -1, 5, 5, 12, 2, 5 }
+ EQ_B { on, -11, -7, 12, 7, 9, 5 }
+ ZnrA { on, DirtyGate, 3 }
+ ZnrB { off, ZNR, 14 }
+Ext  { off, 0 , 0 ,0}
+ Comp { off, Compressor, 6, Fast, 8, 80 }
+ Wah { on, Booster, 3, 6, 8, 80 }
+ Cabi { off, middle, center, Dynamic }
+ Mod { on, Flanger, 76, 10, 0, 28 }
+ Del { on, Delay, 360mS, 20, 8, 36 }
+ Rev { on, Arena, 15, 90, 8, 60 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+ 1 (206, 0, 50, disabled )
+ 2 (66, 0, 100, disabled )
+ 3 (149, 0, 50, disabled )
+ 4 (0, 0, 100, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Description 
+I hope you like it !!
+Let me know how it is with a good amp 
+I just use my PC ;) maybe I have to adjust some param.
+ 
+Set-Up 
+Guitar Used  :  Fender Stratocaster Standard Mexican  
+Switch Position: :  Switch Down   
+
+Energizer  
+Tube 4 
+Boost 4 
+ 
+G9EDpatch
+{
+ Name { Time }
+ Comment {
+// This patch was made by giasso
+
+}
+ PatchLevel { 52 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  MOD/EFX2 OnOff }
+ AmpSel { A }
+ AmpA { on, PV Drive, 68, 17, 60, Pre }
+ AmpB { on, JC Clean, 60, 15, 80, Pre }
+ EQ_A { on, 0, 3, 3, 1, 0, -5 }
+ EQ_B { on, -11, -7, 12, 7, 9, 5 }
+ ZnrA { on, DirtyGate, 5 }
+ ZnrB { off, ZNR, 14 }
+Ext  { off, 0 , 0 ,0}
+ Comp { off, RackComp, 40, 6, 7, 80 }
+ Wah { off, PedalVox, Before, 10, 1, 98 }
+ Cabi { on, middle, center, Dynamic }
+ Mod { off, DynamicDelay, 900mS, 90, 10, -3 }
+ Del { on, Echo, 250mS, 34, 8, 62 }
+ Rev { on, Spring, 14, 1, 4, 70 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+ 1 (210, 0, 50, disabled )
+ 2 (56, 0, 100, disabled )
+ 3 (166, 0, 50, disabled )
+ 4 (0, 0, 100, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Description 
+Just for solo...
+Press Button "Function" to activate Modulation with delay ;)
+ 
+Set-Up 
+Guitar Used  :  Fender Stratocaster Standard Mexican  
+Switch Position: :  Switch Down   
+
+Energizer  
+Tube 4 
+Boost 4 
+G9EDpatch
+{
+Name { ShineOn2 }
+Comment {
+// This patch was made by merlin
+
+}
+PatchLevel { 72 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B,  WAH/EFX1 OnOff }
+AmpSel { A }
+AmpA { on, HiWatt Clean, 77, 27, 30, Pre }
+AmpB { on, HiWatt Clean, 70, 20, 72, Pre }
+EQ_A { on, 8, 0, 5, 12, 6, 12 }
+EQ_B { on, 8, 0, 5, 9, 6, 9 }
+ZnrA { on, ZNR, 10 }
+ZnrB { on, ZNR, 10 }
+Ext  { off, 0 , 0 ,0}
+Comp { on, Compressor, 4, Fast, 8, 64 }
+Wah { on, Phaser, Before, 1, 3, 2 }
+Cabi { on, small, center, Dynamic }
+Mod { off, Flanger, 2, 1, 0, 0 }
+Del { off, Echo, 20mS, 10, 3, 40 }
+Rev { on, Hall, 10, 60, 8, 60 }
+Arrm { 0, 255, 0, 0, 255 }
+Pedal1 {
+1 (1, 0, 100, disabled )
+2 (0, 0, 255, disabled )
+3 (0, 0, 255, disabled )
+4 (0, 0, 255, disabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Description 
+This patch accompanies the first patch (ShineOn) to provide for the b# F G E phaser-employed tone. Switch back to ShineOn for the solo (the slide section from the studio version on Wish You Were Here isn't supported, and Gilmour doesn't play it live). 
+
+For use with a computer - if you are using with 
+an external amp you will have to adjust accordingly.
+
+As Gilmour used an EMG-loaded Strat live, I've used a humbucker-equipped gtr for this. 
+
+Set-Up 
+Guitar Used  :  JJ Retro HB  
+Switch Position: :  Switch Up  
+
+Energizer  
+Tube 7 
+Boost 10 
+ 
+
+G9EDpatch
+{
+Name { ShineOn }
+Comment {
+// This patch was made by merlin
+
+}
+PatchLevel { 72 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B,  WAH/EFX1 OnOff }
+AmpSel { A }
+AmpA { on, HiWatt Clean, 70, 20, 70, Pre }
+AmpB { on, HiWatt Clean, 70, 20, 72, Pre }
+EQ_A { on, 8, 0, 5, 9, 6, 9 }
+EQ_B { on, 8, 0, 5, 9, 6, 9 }
+ZnrA { on, ZNR, 10 }
+ZnrB { on, ZNR, 10 }
+Ext  { off, 0 , 0 ,0}
+Comp { on, Compressor, 3, Slow, 3, 64 }
+Wah { off, Phaser, Before, 15, 1, 80 }
+Cabi { on, large,center, Dynamic }
+Mod { off, Chorus, 40, 25, 7, 50 }
+Del { on, Echo, 20mS, 10, 3, 40 }
+Rev { on, Hall, 10, 45, 4, 60 }
+Arrm { 0, 255, 0, 0, 255 }
+Pedal1 {
+1 (1, 0, 100, disabled )
+2 (0, 0, 255, disabled )
+3 (0, 0, 255, disabled )
+4 (0, 0, 255, disabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Type : Studio  
+Artist :David Gilmour  
+Added : 2007-06-05 23:09:51 
+
+Description 
+This is a computer-only patch for SOYCD using the live version from "Pulse" as a template.
+
+As Gilmour uses a Strat loaded with EMG's I used the neck pickup of a humbucker-equipped guitar to achieve the tone (a single-coil pickup is just too thin).
+
+A second patch "ShineOn2" addresses the b# F G E famous phased section.
+ 
+Set-Up 
+Guitar Used  :  JJ Retro HB  
+Switch Position: :  Switch Up  
+
+Energizer  
+Tube 6 
+Boost 8 
+
+G9EDpatch
+{
+ Name { Pfloyd }
+ Comment {
+// This patch was made by Ccool28
+
+}
+ PatchLevel { 32 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { A }
+ AmpA { on, UK Blues, 69, 23, 54, Pre }
+ AmpB { on, VOX Clean, 60, 15, 80, Pre }
+ EQ_A { on, 12, 12, 12, 5, 5, -3 }
+ EQ_B { on, 12, 12, 12, 3, 3, -3 }
+ ZnrA { on, ZNR, 14 }
+ ZnrB { on, ZNR, 14 }
+Ext  { off, 0 , 0 ,0}
+ Comp { on, Compressor, 6, Fast, 5, 10 }
+ Wah { on, PedalVox, Before, 24, 0, 70 }
+ Cabi { off, small, center, Condenser }
+ Mod { on, Chorus, 40, 25, 7, 50 }
+ Del { on, Delay, 405mS, 66, 6, 40 }
+ Rev { on, Hall, 16, 6, 5, 50 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+ 1 (24, 0, 49, disabled )
+ 2 (0, 0, 100, disabled )
+ 3 (0, 0, 100, disabled )
+ 4 (0, 0, 100, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Description 
+Run like hell
+ 
+Set-Up 
+Guitar Used  :    
+
+Energizer  
+Tube 0 
+Boost 0 
+
+G9EDpatch
+{
+Name { PF1 }
+Comment {
+// This patch was made by giasso
+
+}
+PatchLevel { 68 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+AmpSel { B }
+AmpA { on, VOX Clean, 59, 15, 67, Pre }
+AmpB { on, BG Drive, 19, 13, 72, Pre }
+EQ_A { on, 7, 4, 2, 4, 4, 6 }
+EQ_B { on, 4, 5, 3, 5, 5, 8 }
+ZnrA { on, ZNR, 3 }
+ZnrB { on, ZNR, 6 }
+Ext  { off, 0 , 0 ,0}
+Comp { on, Compressor, 2, Fast, 9, 70 }
+Wah { off, Booster, 1, 5, 10, 80 }
+Cabi { on, middle, middle, Dynamic }
+Mod { off, Chorus, 6, 6, 0, 0 }
+Del { on, Echo, 165mS, 70, 6, 36 }
+Rev { on, Arena, 15, 90, 8, 60 }
+Arrm { 0, 0, 255, 0, 0 }
+Pedal1 {
+1 (1, 0, 100, enabled )
+2 (0, 0, 100, enabled )
+3 (0, 0, 100, disabled )
+4 (0, 0, 255, disabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Description 
+Play with MFZ in PC
+ 
+Set-Up 
+Guitar Used  :  Yamaha EG112  
+Switch Position: :  Switch Up half way  
+
+Energizer  
+Tube 4 
+Boost 4 
+ 
+ 
+  
+  
+ 
+
+G9EDpatch
+{
+ Name { TheWall }
+ Comment {
+// This patch was made by giasso
+
+}
+ PatchLevel { 50 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { B }
+ AmpA { on, VOX Clean, 59, 15, 67, Pre }
+ AmpB { on, VOX Clean, 100, 20, 35, Pre }
+ EQ_A { on, 7, 4, 2, 4, 4, 6 }
+ EQ_B { on, 4, -2, 9, 5, 9, 8 }
+ ZnrA { on, ZNR, 3 }
+ ZnrB { on, NoiseGate, 8 }
+Ext  { off, 0 , 0 ,0}
+ Comp { on, Compressor, 5, Fast, 10, 72 }
+ Wah { on, Booster, 3, 4, 10, 100 }
+ Cabi { off, small, middle, Condenser }
+ Mod { off, Chorus, 40, 25, 7, 50 }
+ Del { on, Delay, 352mS, 38, 8, 20 }
+ Rev { on, Arena, 15, 90, 8, 60 }
+ Arrm { 0, 0, 255, 0, 0 }
+ Pedal1 {
+ 1 (54, 0, 100, enabled )
+ 2 (0, 0, 100, enabled )
+ 3 (0, 0, 100, disabled )
+ 4 (0, 0, 100, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Set-Up 
+Guitar Used  :  Yamaha EG112  
+Switch Position: :  Switch Up  
+  
+Energizer  
+Tube 4 
+Boost 4 
+18. 	 Deep Purple (1)--------------------------------------
+
+G9EDpatch
+{
+ Name { BlackMor }
+ Comment {
+// This patch was made by oldschoolrocker
+
+}
+ PatchLevel { 80 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { A }
+ AmpA { on, UK Blues, 100, 15, 80, Pre }
+ AmpB { on, Over Drive, 60, 15, 80, Pre }
+ EQ_A { on, 3, 0, 1, 0, 1, 0 }
+ EQ_B { on, -2, 3, 0, 2, 2, 0 }
+ ZnrA { on, ZNR, 4 }
+ ZnrB { on, ZNR, 5 }
+Ext  { off, 0 , 0 ,0}
+ Comp { off, Compressor, 6, Fast, 8, 80 }
+ Wah { off, Booster, 2, 9, 8, 80 }
+ Cabi { off, small, center, Dynamic }
+ Mod { on, Ensemble, 80, 30, 7, 14 }
+ Del { on, Echo, 308mS, 0, 7, 6 }
+ Rev { on, ModernSpring, 5, 1, 7, 4 }
+ Arrm { 0, 0, 255, 0, 0 }
+ Pedal1 {
+  1 (1, 0, 100, disabled )
+  2 (0, 0, 255, disabled )
+  3 (0, 0, 255, disabled )
+  4 (0, 0, 255, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+	   	 FOR SMOKE ON THE WATER AND MANY SONGS OF DEEP PURPLE THIS IS THE BEST DEEP PURPLE SOUND YOU CAN GET BUT U CAN CHANGE THE AMP IF U WANT.
+
+Energizer
+Tube 	
+4
+	
+Boost 	
+4
+
+Dire Straits------------------------------------------------------------
+G9EDpatch
+{
+ Name { DIRE STR }
+ Comment {
+// This patch was made by yoyo
+
+}
+ PatchLevel { 52 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, Delay TAP }
+ AmpSel { A }
+ AmpA { on, TS+F_Cmb, 100, 30, 72, Pre }
+ AmpB { on, FuzzFace, 60, 15, 80, Post }
+ EQ_A { on, 0, 10, 11, 0, 9, -2 }
+ EQ_B { on, 0, 5, 4, 4, 0, 0 }
+ ZnrA { off, ZNR, 1 }
+ ZnrB { on, ZNR, 4 }
+ Ext { off, 80, 80, 0 }
+ Comp { on, Limiter, 14, 7, 10, 80 }
+ Wah { on, Booster, 2, 4, 8, 56 }
+ Cabi { off, large, center, Dynamic }
+ Mod { on, CombFilter, 6, 7, 6, 66 }
+ Del { on, Delay, 5mS, 18, 9, 60 }
+ Rev { off, TiledRoom, 8, 10, 8, 16 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+ 1 ( 1, 0, 100, disabled )
+ 2 ( 0, 0, 100, disabled )
+ 3 ( 0, 0, 100, enabled )
+ 4 ( 0, 0, 100, disabled )
+ }
+ Pedal2V {
+ 1 ( 186, 0, 49, enabled )
+ 2 ( 8, 0, 10, disabled )
+ 3 ( 0, 0, 100, disabled )
+ 4 ( 0, 0, 100, disabled )
+ }
+ Pedal2H {
+ 1 ( 186, 0, 49 )
+ 2 ( 0, 0, 50 )
+ 3 ( 0, 0, 50 )
+ 4 ( 0, 0, 50 )
+ }
+}
+
+Description 
+Le son de " Money for Nothing "
+The Money For Nothing's sound
+ 
+Set-Up 
+Guitar Used  :  ** Other ** ARIA PRO II  
+Switch Position: :  Switch Down   
+
+Accelerator  
+Tube 6 
+Solid State 4 
+
+Energizer  
+Tube 4 
+Boost 6 
+ 
+Eric Clapton----------------------------------------------------------
+G9EDpatch
+{
+ Name { Clapton }
+ Comment {
+// This patch was made by Ccool28
+
+}
+ PatchLevel { 88 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { B }
+ AmpA { on, MS Crunch, 40, 15, 84, Pre }
+ AmpB { on, MS Crunch, 30, 15, 80, Pre }
+ EQ_A { on, -1, 4, 5, 9, 7, 5 }
+ EQ_B { on, 0, 5, 6, 6, 6, 10 }
+ ZnrA { on, ZNR, 10 }
+ ZnrB { on, ZNR, 6 }
+Ext  { off, 0 , 0 ,0}
+ Comp { on, Compressor, 6, Fast, 8, 80 }
+ Wah { off, PedalVox, Before, 15, 3, 70 }
+ Cabi { off, middle, middle, Condenser }
+ Mod { off, Chorus, 60, 5, 7, 34 }
+ Del { off, Delay, 200mS, 2, 8, 4 }
+ Rev { on, Room, 15, 8, 1, 88 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+  1 (24, 0, 49, disabled )
+  2 (0, 0, 100, disabled )
+  3 (0, 0, 100, disabled )
+  4 (0, 0, 100, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Description 
+Riding with the King
+ 
+Set-Up 
+Guitar Used  :    
+
+Energizer  
+Tube 0 
+Boost 0 
+
+
+G9EDpatch
+{
+ Name { Hideaway }
+ Comment {
+// This patch was made by Ccool28
+
+}
+ PatchLevel { 88 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { A }
+ AmpA { on, MS Crunch, 40, 15, 84, Pre }
+ AmpB { on, MS Crunch, 30, 15, 80, Pre }
+ EQ_A { on, -1, 4, 5, 9, 7, 5 }
+ EQ_B { on, 0, 5, 6, 6, 6, 10 }
+ ZnrA { on, ZNR, 10 }
+ ZnrB { on, ZNR, 6 }
+Ext  { off, 0 , 0 ,0}
+ Comp { off, Compressor, 6, Fast, 8, 80 }
+ Wah { off, PedalVox, Before, 15, 3, 70 }
+ Cabi { off, middle, middle, Condenser }
+ Mod { off, Chorus, 60, 5, 7, 34 }
+ Del { off, Delay, 200mS, 2, 8, 4 }
+ Rev { off, Room, 15, 8, 1, 88 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+  1 (24, 0, 49, disabled )
+  2 (0, 0, 100, disabled )
+  3 (0, 0, 100, disabled )
+  4 (0, 0, 100, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Description 
+Hideaway
+ 
+Set-Up 
+Guitar Used  :    
+
+Energizer  
+Tube 0 
+Boost 0 
+Gary Moore-------------------------------------------------------------
+
+G9EDpatch
+{
+ Name { STIL BLU }
+ Comment {
+// This patch was made by lestat97
+
+}
+ PatchLevel { 68 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, MOD/EFX2 OnOff }
+ AmpSel { B }
+ AmpA { on, Fender Clean, 60, 15, 69, Pre }
+ AmpB { on, SD+M_Stk, 100, 15, 80, Pre }
+ EQ_A { on, 0, 0, 0, 0, 0, 0 }
+ EQ_B { on, 6, 0, 9, 3, 0, 2 }
+ ZnrA { on, ZNR, 3 }
+ ZnrB { on, ZNR, 3 }
+ Ext { off, 80, 80, 0 }
+ Comp { off, Compressor, 8, Slow, 6, 70 }
+ Wah { off, Booster, 3, 5, 5, 64 }
+ Cabi { on, small, center, Dynamic }
+ Mod { on, Chorus, 16, 26, 5, 24 }
+ Del { on, Delay, 164mS, 0, 0, 40 }
+ Rev { on, Spring, 11, 1, 5, 36 }
+ Arrm { 0, 0, 255, 0, 0 }
+ Pedal1 {
+ 1 ( 1, 0, 100, enabled )
+ 2 ( 0, 0, 100, disabled )
+ 3 ( 0, 0, 100, disabled )
+ 4 ( 0, 0, 100, disabled )
+ }
+ Pedal2V {
+ 1 ( 126, 70, 100, disabled )
+ 2 ( 0, 0, 100, disabled )
+ 3 ( 0, 0, 100, disabled )
+ 4 ( 0, 0, 100, disabled )
+ }
+ Pedal2H {
+ 1 ( 0, 0, 100 )
+ 2 ( 0, 0, 100 )
+ 3 ( 0, 0, 100 )
+ 4 ( 0, 0, 100 )
+ }
+}
+
+Description 
+still got the blues song from "ballad and blues"
+play with guitar tone button to get the right tone. with my godin tone=10 to stay bright.
+intro/Solo only
+ 
+Set-Up 
+Guitar Used  :  Godin Artisan ST1  
+Switch Position: :  Switch Down   
+
+Accelerator  
+Tube 5 
+Solid State 5 
+
+Energizer  
+Tube 2 
+Boost 2 
+
+G9EDpatch
+{
+ Name { GaryMoor }
+ Comment {
+// This patch was made by ekoJem
+
+}
+ PatchLevel { 26 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { A }
+ AmpA { on, BG Crunch, 79, 17, 80, Pre }
+ AmpB { on, PV Drive, 95, 12, 80, Pre }
+ EQ_A { on, 8, 9, 4, 7, 3, -2 }
+ EQ_B { on, 2, 2, 8, 4, 4, 4 }
+ ZnrA { on, NoiseGate, 4 }
+ ZnrB { on, ZNR, 9 }
+Ext  { off, 0 , 0 ,0}
+ Comp { on, RackComp, 35, 3, 9, 86 }
+ Wah { off, PedalVox, Before, 15, 0, 70 }
+ Cabi { on, large, center, Condenser }
+ Mod { on, Chorus, 56, 5, 6, 42 }
+ Del { on, PingPongDelay, 400mS, 20, 8, 40 }
+ Rev { on, Hall, 10, 45, 9, 60 }
+ Arrm { 0, 255, 0, 0, 255 }
+ Pedal1 {
+  1 (140, 0, 49, enabled )
+  2 (0, 0, 100, disabled )
+  3 (0, 0, 255, disabled )
+  4 (0, 0, 255, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Description 
+Still got the blues intro solo tone.
+ 
+Set-Up 
+Guitar Used  :  Ibanez Jem  
+Switch Position: :  Switch Up  
+
+Energizer  
+Tube 0 
+Boost 0 
+ 
+ 
+G9EDpatch
+{
+ Name { G.Moore }
+ Comment {
+// This patch was made by giasso
+
+}
+ PatchLevel { 86 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { B }
+ AmpA { on, Fender Clean, 50, 15, 84, Pre }
+ AmpB { on, MS Drive, 33, 17, 80, Pre }
+ EQ_A { on, 0, 4, 0, 0, 2, 0 }
+ EQ_B { off, 3, -1, -1, 3, 9, 6 }
+ ZnrA { on, ZNR, 3 }
+ ZnrB { off, DirtyGate, 12 }
+Ext  { off, 0 , 0 ,0}
+ Comp { off, Compressor, 6, Fast, 9, 70 }
+ Wah { off, Booster, 4, 5, 10, 80 }
+ Cabi { on, large, middle, Dynamic }
+ Mod { off, Chorus, 6, 6, 0, 0 }
+ Del { off, Delay, 393mS, 60, 10, 56 }
+ Rev { on, Spring, 17, 1, 4, 42 }
+ Arrm { 0, 0, 255, 0, 0 }
+ Pedal1 {
+ 1 (0, 0, 0, disabled )
+ 2 (0, 0, 0, disabled )
+ 3 (0, 0, 0, disabled )
+ 4 (0, 0, 0, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Description 
+This patch was posted from a user now canceled !
+IS GOOD !!!
+ 
+Set-Up 
+Guitar Used  :  Fender Stratocaster Standard Mexican  
+Switch Position: :  Switch Down half way  
+
+Energizer  
+Tube 4 
+Boost 4 
+
+Jimi Hendrix----------------------------------------------------------
+G9EDpatch
+{
+ Name { Hendrix }
+ Comment {
+// This patch was made by yoyo
+
+}
+ PatchLevel { 92 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, WAH/EFX1 OnOff }
+ AmpSel { B }
+ AmpA { on, MS #1959, 50, 15, 39, Pre }
+ AmpB { on, FuzzFace, 99, 17, 75, Pre }
+ EQ_A { on, -2, -1, 0, 4, 6, 0 }
+ EQ_B { on, 3, 0, -5, 0, 0, 0 }
+ ZnrA { on, ZNR, 5 }
+ ZnrB { on, ZNR, 5 }
+ Ext { off, 80, 80, 0 }
+ Comp { off, Compressor, 6, Fast, 8, 80 }
+ Wah { off, Phaser, Before, 15, 2, 86 }
+ Cabi { on, small, center, Condenser }
+ Mod { off, Vibrato, 36, 17, 3, 50 }
+ Del { on, Air, 10, 6, 8, 28 }
+ Rev { on, Room, 5, 1, 10, 30 }
+ Arrm { 0, 0, 100, 5, 1 }
+ Pedal1 {
+  1 ( 1, 0, 100, enabled )
+  2 ( 0, 0, 100, enabled )
+  3 ( 0, 0, 255, disabled )
+  4 ( 0, 0, 254, disabled )
+ }
+ Pedal2V {
+  1 ( 156, 17, 34, enabled )
+  2 ( 14, 0, 32, enabled )
+  3 ( 0, 0, 255, disabled )
+  4 ( 0, 0, 100, disabled )
+ }
+ Pedal2H {
+  1 ( 223, 0, 50 )
+  2 ( 0, 0, 255 )
+  3 ( 0, 0, 251 )
+  4 ( 0, 0, 255 )
+ }
+}
+
+Set-Up 
+Guitar Used  :  ** Other ** ARIA PRO II  
+Switch Position: :  Switch Down   
+
+Accelerator  
+Tube 6 
+Solid State 5 
+
+Energizer  
+Tube 4 
+Boost 6 
+ 
+G9EDpatch 
+{ 
+Name { Blue2 } 
+Comment {
+// This patch was made by claudiox
+
+} 
+PatchLevel { 80 } 
+Tempo { 120 } 
+PedalFunction { PRE-AMP CH A/B, WAH/EFX1 OnOff } 
+AmpSel { A } 
+AmpA { on, MS Crunch, 60, 15, 80, Pre } 
+AmpB { on, DZ Crunch, 60, 15, 80, Pre } 
+EQ_A { on, 8, 4, 1, -2, -3, -5 } 
+EQ_B { on, 6, 3, 1, 1, 0, -2 } 
+ZnrA { on, ZNR, 4 } 
+ZnrB { on, ZNR, 5 } 
+Ext { off, 80, 80, 0 } 
+Comp { on, Compressor, 6, Fast, 8, 80 } 
+Wah { on, MultiWah, Before, 27, 7, 84 } 
+Cabi { on, small, center, Dynamic } 
+Mod { on, Air, 10, 6, 10, 40 } 
+Del { on, AnalogDelay, 600mS, 30, 8, 28 } 
+Rev { on, ModernSpring, 5, 1, 7, 36 } 
+Arrm { 0, 0, 255, 0, 0 } 
+Pedal1 { 
+1 ( 1, 0, 100, disabled ) 
+2 ( 0, 0, 100, disabled ) 
+3 ( 0, 0, 100, disabled ) 
+4 ( 0, 0, 100, disabled ) 
+} 
+Pedal2V { 
+1 ( 189, 0, 10, disabled ) 
+2 ( 30, 6, 49, disabled ) 
+3 ( 0, 0, 100, disabled ) 
+4 ( 0, 0, 100, disabled ) 
+} 
+Pedal2H { 
+1 ( 214, 0, 50 ) 
+2 ( 0, 0, 100 ) 
+3 ( 0, 0, 100 ) 
+4 ( 0, 0, 100 ) 
+} 
+}
+
+Description 
+the jimi hendrix blues
+ 
+Set-Up 
+Guitar Used  :  ** Other ** strattocaster  
+
+Accelerator  
+Tube 5 
+Solid State 7 
+
+Energizer  
+Tube 3 
+Boost 5 
+
+Joe Satriani-------------------------------------------------------
+G9EDpatch
+{
+ Name { SatMidnt }
+ Comment {
+// This patch was made by jpguitar
+
+}
+ PatchLevel { 74 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, PRE-AMP CH A/B }
+ AmpSel { A }
+ AmpA { on, JC Clean, 70, 7, 82, Pre }
+ AmpB { on, VOX Clean, 55, 16, 20, Pre }
+ EQ_A { on, 4, 0, 5, 7, 0, 0 }
+ EQ_B { on, 2, 6, 9, 8, 0, 8 }
+ ZnrA { on, ZNR, 4 }
+ ZnrB { on, ZNR, 15 }
+ Ext { off, 0, 0, 0 }
+ Comp { on, Compressor, 3, Slow, 7, 88 }
+ Wah { off, Octave, 70, 100, 10, 80 }
+ Cabi { on, large, middle, Dynamic }
+ Mod { on, Chorus, 40, 25, 7, 50 }
+ Del { on, Echo, 360mS, 34, 8, 40 }
+ Rev { on, Room, 11, 36, 5, 60 }
+ Arrm { 0, 0, 0, 0, 0 }
+ Pedal1 {
+ 1 ( 0, 0, 0, disabled )
+ 2 ( 0, 0, 0, disabled )
+ 3 ( 0, 0, 0, disabled )
+ 4 ( 0, 0, 0, disabled )
+ }
+ Pedal2V {
+ 1 ( 0, 0, 0, disabled )
+ 2 ( 0, 0, 0, disabled )
+ 3 ( 0, 0, 0, disabled )
+ 4 ( 0, 0, 0, disabled )
+ }
+ Pedal2H {
+ 1 ( 0, 0, 0 )
+ 2 ( 0, 0, 0 )
+ 3 ( 0, 0, 0 )
+ 4 ( 0, 0, 0 )
+ }
+}
+
+Description 
+To play satriani " midnigth " tapping joe's title its light.
+Saddened for the video I just come to begin to learn this song but it is just for making you listen to the depiction of the sound. Saddened for my English, I am French, lol
+
+Set-Up 
+Guitar Used  :  lag rockline  
+Switch Position: :  Switch Down half way  
+
+Accelerator  
+Tube 2 
+Solid State 2 
+
+Energizer  
+Tube 2 
+Boost 2 
+ 
+ 
+ 
+G9EDpatch
+{
+ Name { Circles }
+ Comment {
+// This patch was made by SkyShroud
+
+}
+ PatchLevel { 64 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { A }
+ AmpA { on, JC Clean, 70, 15, 80, Pre }
+ AmpB { on, PV Drive, 95, 12, 80, Pre }
+ EQ_A { on, 2, 3, 4, 7, 3, 6 }
+ EQ_B { on, 2, 2, 8, 4, 4, 4 }
+ ZnrA { on, ZNR, 4 }
+ ZnrB { on, ZNR, 9 }
+Ext  { off, 0 , 0 ,0}
+ Comp { off, RackComp, 35, 3, 9, 86 }
+ Wah { off, Booster, 1, 0, 10, 100 }
+ Cabi { on, middle, center, Dynamic }
+ Mod { on, Chorus, 24, 15, 6, 42 }
+ Del { on, PingPongDelay, 400mS, 20, 8, 40 }
+ Rev { on, Hall, 10, 45, 9, 60 }
+ Arrm { 0, 255, 0, 0, 255 }
+ Pedal1 {
+ 1 (140, 0, 49, enabled )
+ 2 (0, 0, 100, disabled )
+ 3 (0, 0, 255, disabled )
+ 4 (0, 0, 255, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Description 
+Patch I use for Joe Satriani's tone in Circles. lead in B, clean for intro in A, didnt work much in this clean but should sound ok. I put my patches in the Editor "manually" cause i dont have the midi interface so if it sounds very off i may have made a mistake.
+ 
+Set-Up 
+Guitar Used  :  Ibanez RG2550  
+Switch Position: :  Switch Up  
+
+Energizer  
+Tube 6 
+Boost 5 
+ 
+Led Zeppelin------------------------------------------------------
+G9EDpatch
+{
+ Name { Zeppelin }
+ Comment {
+// This patch was made by oldschoolrocker
+
+}
+ PatchLevel { 70 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { A }
+ AmpA { on, DS-1, 60, 15, 80, Pre }
+ AmpB { on, VOX Clean, 90, 15, 100, Pre }
+ EQ_A { on, -6, 3, 7, 7, 5, 0 }
+ EQ_B { on, 0, 0, 6, 9, 3, 0 }
+ ZnrA { on, ZNR, 13 }
+ ZnrB { on, ZNR, 13 }
+Ext  { off, 0 , 0 ,0}
+ Comp { off, Compressor, 6, Fast, 8, 80 }
+ Wah { off, Octave, 80, 80, 8, 80 }
+ Cabi { off, large, edge, Dynamic }
+ Mod { off, MonoPitch, 12, 6, 0, 50 }
+ Del { on, AnalogDelay, 300mS, 20, 4, 30 }
+ Rev { off, TiledRoom, 20, 10, 8, 14 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+  1 (215, 0, 15, enabled )
+  2 (0, 0, 100, disabled )
+  3 (0, 0, 100, disabled )
+  4 (0, 0, 100, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Description 
+Channel b for stairway to heaven chords and channel a for the solo !!!!
+ 
+Set-Up 
+Guitar Used  :  Gibson Les Paul Studio  
+
+Energizer  
+Tube 3 
+Boost 3 
+ 
+G9EDpatch
+{
+ Name { Zeppelin }
+ Comment {
+// This patch was made by SoundCaster
+
+}
+ PatchLevel { 86 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, WAH/EFX1 OnOff }
+ AmpSel { B }
+ AmpA { on, HiWatt Clean, 60, 15, 80, Pre }
+ AmpB { on, MS #1959, 100, 15, 90, Pre }
+ EQ_A { on, 7, 0, 0, 12, 12, 0 }
+ EQ_B { on, 3, -12, 10, 12, 12, 8 }
+ ZnrA { on, ZNR, 8 }
+ ZnrB { on, ZNR, 5 }
+ Ext { off, 80, 80, 0 }
+ Comp { on, Compressor, 7, Slow, 7, 80 }
+ Wah { off, Phaser, Before, 7, 4, 70 }
+ Cabi { off, small, center, Dynamic }
+ Mod { off, Z-MonoPitch, 6, 6, 0, 0 }
+ Del { on, Delay, 460mS, 28, 6, 30 }
+ Rev { on, EarlyReflection, 30, 4, 9, 16 }
+ Arrm { 0, 0, 255, 0, 0 }
+ Pedal1 {
+ 1 ( 1, 0, 100, enabled )
+ 2 ( 0, 0, 100, enabled )
+ 3 ( 0, 0, 100, disabled )
+ 4 ( 0, 0, 100, disabled )
+ }
+ Pedal2V {
+ 1 ( 207, 0, 50, enabled )
+ 2 ( 0, 0, 100, disabled )
+ 3 ( 0, 0, 100, disabled )
+ 4 ( 0, 0, 100, disabled )
+ }
+ Pedal2H {
+ 1 ( 0, 0, 100 )
+ 2 ( 0, 0, 100 )
+ 3 ( 0, 0, 100 )
+ 4 ( 0, 0, 100 )
+ }
+}
+
+Description 
+A patch for Since I've Been Loving You by Led Zeppelin (Great song)
+
+The first channel is for the clean sound (I use the middle/neck pickups with this channel. Use the the bridge pickup with the second channel for the solos
+ 
+Set-Up 
+Guitar Used  :  Jackson  
+
+Accelerator  
+Tube 0 
+Solid State 8 
+
+Energizer  
+Tube 4 
+Boost 4 
+
+Steve Vai---------------------------------------------------------------
+G9EDpatch
+{
+ Name { FTLOG  }
+ Comment {
+// This patch was made by Bloody
+
+}
+ PatchLevel { 86 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, WAH/EFX1 OnOff }
+ AmpSel { B }
+ AmpA { on, DZ Clean, 50, 15, 84, Post }
+ AmpB { on, Rect Vintage, 85, 20, 90, Pre }
+ EQ_A { on, 0, 4, 0, 0, 2, 0 }
+ EQ_B { on, 5, -1, 3, 5, 7, 7 }
+ ZnrA { on, ZNR, 3 }
+ ZnrB { on, NoiseGate, 2 }
+ Ext { off, 80, 80, 0 }
+ Comp { on, RackComp, 40, 4, 9, 70 }
+ Wah { off, Phaser, Before, 7, 4, 70 }
+ Cabi { on, middle, middle, Dynamic }
+ Mod { off, Z-MonoPitch, 6, 6, 0, 0 }
+ Del { on, Echo, 360mS, 20, 8, 40 }
+ Rev { on, Hall, 10, 45, 5, 60 }
+ Arrm { 0, 0, 255, 0, 0 }
+ Pedal1 {
+  1 ( 1, 0, 100, enabled )
+  2 ( 0, 0, 100, enabled )
+  3 ( 0, 0, 100, disabled )
+  4 ( 0, 0, 255, disabled )
+ }
+ Pedal2V {
+  1 ( 202, 0, 100, enabled )
+  2 ( 0, 0, 255, disabled )
+  3 ( 0, 0, 255, disabled )
+  4 ( 0, 0, 100, disabled )
+ }
+ Pedal2H {
+  1 ( 203, 0, 100 )
+  2 ( 220, 0, 29 )
+  3 ( 0, 0, 255 )
+  4 ( 0, 0, 255 )
+ }
+}
+
+Description  
+Steve Vai patch i made for For The Love Of God...
+hope you like it!
+ 
+Set-Up  
+Guitar Used  :  Epiphone Les Paul Custom  
+Switch Position: :  Switch Up  
+
+Accelerator  
+Tube 0 
+Solid State 0 
+
+Energizer  
+Tube 0 
+Boost 0
+
+-----------------------
+Artist :Stevie Ray Vaughan 
+
+G9EDpatch
+{
+ Name { SRV   }
+ Comment {
+// This patch was made by Ccool28
+
+}
+ PatchLevel { 70 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { B }
+ AmpA { on, TS808, 70, 19, 56, Pre }
+ AmpB { on, Fender Clean, 60, 15, 80, Pre }
+ EQ_A { on, 12, 4, 6, 9, 5, 5 }
+ EQ_B { on, 0, 0, 6, 9, 5, 0 }
+ ZnrA { on, ZNR, 11 }
+ ZnrB { on, ZNR, 13 }
+Ext  { off, 0 , 0 ,0}
+ Comp { on, Compressor, 6, Fast, 5, 48 }
+ Wah { on, PedalCryBaby, Before, 15, 0, 70 }
+ Cabi { off, large, edge, Dynamic }
+ Mod { off, Vibrato, 40, 30, 7, 72 }
+ Del { on, AnalogDelay, 300mS, 20, 4, 30 }
+ Rev { on, Spring, 13, 16, 5, 60 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+  1 (215, 0, 15, enabled )
+  2 (0, 0, 100, disabled )
+  3 (0, 0, 100, disabled )
+  4 (0, 0, 100, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+ 
+Description
+	  	SRV generic sound, use channel B
+
+---------------------
+Artist :Symphony X
+	
+Description
+	  	patch per neoclassical metal
+g9.2tt + ibanez tubescreamer ts7 DRIVE12:00,TONE12:00,LEVEL5:0 0 channel A tubescreamer[on] channel B tubescreamer[on]
+
+
+
+G9EDpatch
+{
+ Name { METAL.v2 }
+ Comment {
+// This patch was made by 000palermo000
+
+}
+ PatchLevel { 56 }
+ Tempo { 180 }
+ PedalFunction { PRE-AMP CH A/B, PRE-AMP CH A/B }
+ AmpSel { A }
+ AmpA { on, MS Crunch, 88, 11, 80, Pre }
+ AmpB { on, MS Drive, 60, 17, 80, Pre }
+ EQ_A { on, 4, 0, 5, 7, 6, 0 }
+ EQ_B { on, 5, 0, 4, 5, 5, 0 }
+ ZnrA { on, ZNR, 14 }
+ ZnrB { on, ZNR, 16 }
+ Ext { off, 0, 0, 0 }
+ Comp { on, RackComp, 32, 6, 9, 80 }
+ Wah { off, Booster, 1, 0, 10, 100 }
+ Cabi { on, small, center, Condenser }
+ Mod { off, PedalMonoPitch, 4, Up, 8, 0 }
+ Del { off, PingPongDelay, 431mS, 22, 9, 32 }
+ Rev { on, Room, 10, 5, 5, 60 }
+ Arrm { 0, 0, 0, 0, 0 }
+ Pedal1 {
+  1 ( 1, 0, 100, enabled )
+  2 ( 0, 0, 100, disabled )
+  3 ( 0, 0, 255, disabled )
+  4 ( 0, 0, 255, disabled )
+ }
+ Pedal2V {
+  1 ( 175, 0, 100, disabled )
+  2 ( 0, 0, 100, disabled )
+  3 ( 0, 0, 100, disabled )
+  4 ( 0, 0, 100, disabled )
+ }
+ Pedal2H {
+  1 ( 0, 0, 50 )
+  2 ( 0, 0, 50 )
+  3 ( 0, 0, 50 )
+  4 ( 0, 0, 50 )
+ }
+}
+
+-------------------------------------------------
+Artist :Telephone
+	
+Description
+Ca c'est Vraiment toi
+
+G9EDpatch
+{
+ Name { telepho }
+ Comment {
+// This patch was made by Ccool28
+
+}
+ PatchLevel { 90 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { A }
+ AmpA { on, MS Crunch, 33, 15, 41, Pre }
+ AmpB { on, UK Blues, 60, 15, 53, Pre }
+ EQ_A { on, -1, 6, 12, 3, 7, -3 }
+ EQ_B { on, 4, -1, 4, 5, 0, -2 }
+ ZnrA { off, ZNR, 10 }
+ ZnrB { on, ZNR, 13 }
+Ext  { off, 0 , 0 ,0}
+ Comp { off, Compressor, 8, Slow, 6, 70 }
+ Wah { off, Phaser, After, 10, 1, 80 }
+ Cabi { off, small, middle, Dynamic }
+ Mod { off, StereoChorus, 80, 30, 5, 60 }
+ Del { off, Delay, 680mS, 2, 2, 32 }
+ Rev { off, EarlyReflection, 10, 10, 6, 50 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+ 1 (1, 0, 100, disabled )
+ 2 (0, 0, 100, disabled )
+ 3 (0, 0, 100, disabled )
+ 4 (0, 0, 100, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+
+--------------------
+Artist  : The Beatles
+From : Fridge
+Description : Day Tripper Use channel A for melody riff in verse Channel B is for solo
+Rating (46) : 7.7   
+
+G9EDpatch
+{
+ Name { DayTrip }
+ Comment {
+// This patch was made by Fridge
+
+}
+ PatchLevel { 50 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, DELAY OnOff }
+ AmpSel { A }
+ AmpA { on, Z Clean, 61, 15, 69, Pre }
+ AmpB { on, Z Combo, 82, 15, 85, Pre }
+ EQ_A { on, 0, 3, 4, 0, 0, -12 }
+ EQ_B { on, 2, 5, 7, 7, 6, -12 }
+ ZnrA { on, ZNR, 12 }
+ ZnrB { on, NoiseGate, 10 }
+ Ext { off, 0, 0, 0 }
+ Comp { off, RackComp, 40, 2, 7, 80 }
+ Wah { off, Booster, 4, 7, 8, 80 }
+ Cabi { off, small, center, Dynamic }
+ Mod { on, StereoChorus, 70, 38, 7, 96 }
+ Del { off, AnalogDelay, 300mS, 36, 8, 70 }
+ Rev { on, Hall, 22, 45, 5, 60 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+ 1 ( 1, 0, 100, disabled )
+ 2 ( 215, 15, 35, disabled )
+ 3 ( 220, 0, 29, disabled )
+ 4 ( 0, 0, 100, disabled )
+ }
+ Pedal2V {
+ 1 ( 215, 15, 35, disabled )
+ 2 ( 220, 0, 29, disabled )
+ 3 ( 0, 0, 0, disabled )
+ 4 ( 0, 0, 0, disabled )
+ }
+ Pedal2H {
+ 1 ( 0, 0, 0 )
+ 2 ( 0, 0, 0 )
+ 3 ( 0, 0, 0 )
+ 4 ( 0, 0, 0 )
+ }
+}
+
+--------------------------------------
+Artist  : The Cult
+From : danger
+Description : distorsion of Rain
+Rating (41) : 7.9   
+
+G9EDpatch
+{
+ Name { CultRain }
+ Comment {
+// This patch was made by danger
+
+}
+ PatchLevel { 90 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { A }
+ AmpA { on, BG Crunch, 20, 25, 80, Pre }
+ AmpB { on, BG Crunch, 60, 15, 90, Pre }
+ EQ_A { on, 2, -1, -2, 2, 0, 0 }
+ EQ_B { on, 3, 5, 3, 5, 6, 7 }
+ ZnrA { on, NoiseGate, 10 }
+ ZnrB { on, NoiseGate, 10 }
+Ext  { off, 0 , 0 ,0}
+ Comp { on, Compressor, 2, Fast, 9, 80 }
+ Wah { off, Booster, 4, 9, 10, 100 }
+ Cabi { off, small, middle, Dynamic }
+ Mod { on, Chorus, 40, 25, 7, 30 }
+ Del { on, PingPongDelay, 250mS, 4, 8, 26 }
+ Rev { on, EarlyReflection, 10, 10, 6, 50 }
+ Arrm { 1, 0, 0, 0, 0 }
+ Pedal1 {
+ 1 (8, 0, 10, enabled )
+ 2 (0, 0, 100, disabled )
+ 3 (0, 0, 255, disabled )
+ 4 (0, 0, 255, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Energizer
+Tube 	
+5
+	
+Boost 	
+7
+-------------------------
+Artist  : The Cult
+From : Fridge
+Description : She sells Sanctuary pedal pushed all the way down turns off phaser which is only needed during intro (...)
+Rating (38) : 8.7  
+
+G9EDpatch
+{
+ Name { SheSells }
+ Comment {
+// This patch was made by Fridge
+
+}
+ PatchLevel { 80 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, WAH/EFX1 OnOff }
+ AmpSel { B }
+ AmpA { on, Z Combo, 40, 25, 90, Pre }
+ AmpB { on, VOX Clean, 60, 15, 80, Pre }
+ EQ_A { on, 2, 8, 2, 8, 2, -12 }
+ EQ_B { on, 1, 0, 3, 6, 4, -12 }
+ ZnrA { on, ZNR, 10 }
+ ZnrB { off, ZNR, 11 }
+ Ext { off, 0, 0, 0 }
+ Comp { on, Compressor, 4, Fast, 7, 60 }
+ Wah { on, Phaser, Before, 15, 2, 80 }
+ Cabi { off, large, middle, Dynamic }
+ Mod { on, Chorus, 40, 25, 7, 50 }
+ Del { on, Delay, 360mS, 30, 8, 52 }
+ Rev { on, Hall, 15, 8, 6, 36 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+ 1 ( 1, 0, 100, disabled )
+ 2 ( 0, 0, 100, disabled )
+ 3 ( 0, 0, 100, disabled )
+ 4 ( 0, 0, 100, disabled )
+ }
+ Pedal2V {
+ 1 ( 207, 0, 25, disabled )
+ 2 ( 15, 39, 39, enabled )
+ 3 ( 0, 0, 0, disabled )
+ 4 ( 0, 0, 0, disabled )
+ }
+ Pedal2H {
+ 1 ( 0, 0, 0 )
+ 2 ( 0, 0, 0 )
+ 3 ( 0, 0, 0 )
+ 4 ( 0, 0, 0 )
+ }
+}
+
+-----------------------
+Artist  : The Eagles
+From : steve2a
+Description : The patch I use for Hotel california (studio version) solo
+Rating (122) : 8.5   
+
+G9EDpatch
+{
+ Name { HOT.CALI }
+ Comment {
+// This patch was made by steve2a
+
+}
+ PatchLevel { 80 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { B }
+ AmpA { on, Fender Clean, 70, 20, 70, Pre }
+ AmpB { on, TS+F_Cmb, 89, 15, 95, Pre }
+ EQ_A { on, 8, 1, 1, 11, 0, 0 }
+ EQ_B { on, 2, 2, 1, 9, 7, 11 }
+ ZnrA { on, ZNR, 10 }
+ ZnrB { on, NoiseGate, 5 }
+Ext  { off, 0 , 0 ,0}
+ Comp { on, Compressor, 6, Fast, 8, 80 }
+ Wah { off, PedalVox, Before, 15, 0, 70 }
+ Cabi { off, large, middle, Dynamic }
+ Mod { off, Vibrato, 84, 0, 7, 0 }
+ Del { on, Delay, 250mS, 20, 8, 40 }
+ Rev { on, TiledRoom, 11, 10, 8, 10 }
+ Arrm { 0, 0, 255, 0, 0 }
+ Pedal1 {
+ 1 (156, 0, 40, enabled )
+ 2 (24, 0, 49, enabled )
+ 3 (157, 0, 35, disabled )
+ 4 (0, 0, 255, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Guitar Used  	:  ** Other ** Home made PRS  	
+Switch Position: 	:  Switch Down 	
+	
+
+
+Energizer
+Tube 	
+5
+	
+Boost 	
+5
+
+----------------------------------
+Artist  : The Eagles
+From : Fridge
+Description : Take it Easy Channel A for rhythm Channel B for lead Middle pickup
+Rating (75) : 8.1   
+
+
+G9EDpatch
+{
+ Name { Eagles }
+ Comment {
+// This patch was made by Fridge
+
+}
+ PatchLevel { 32 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B, PRE-AMP CH A/B }
+ AmpSel { A }
+ AmpA { on, JC Clean, 60, 15, 80, Pre }
+ AmpB { on, HiWatt Clean, 60, 15, 80, Pre }
+ EQ_A { on, 2, 9, 6, 0, 5, -12 }
+ EQ_B { on, 9, 4, 8, 6, 9, -12 }
+ ZnrA { on, ZNR, 11 }
+ ZnrB { on, NoiseGate, 8 }
+ Ext { off, 0, 0, 0 }
+ Comp { on, Compressor, 3, Slow, 7, 88 }
+ Wah { off, Booster, 2, 6, 8, 80 }
+ Cabi { off, small, center, Dynamic }
+ Mod { on, StereoChorus, 80, 30, 7, 60 }
+ Del { on, Echo, 240mS, 20, 8, 40 }
+ Rev { on, ModernSpring, 20, 100, 8, 8 }
+ Arrm { 0, 0, 255, 0, 0 }
+ Pedal1 {
+ 1 ( 1, 0, 100, disabled )
+ 2 ( 0, 0, 100, disabled )
+ 3 ( 0, 0, 100, disabled )
+ 4 ( 0, 0, 100, disabled )
+ }
+ Pedal2V {
+ 1 ( 8, 0, 10, disabled )
+ 2 ( 211, 5, 20, disabled )
+ 3 ( 0, 0, 0, disabled )
+ 4 ( 0, 0, 0, disabled )
+ }
+ Pedal2H {
+ 1 ( 0, 0, 0 )
+ 2 ( 0, 0, 0 )
+ 3 ( 0, 0, 0 )
+ 4 ( 0, 0, 0 )
+ }
+}
+
+
+Set-Up
+Guitar Used 	:  Epiphone Les Paul Custom 	
+Switch Position: 	:  Switch Middle 	
+	
+
+
+Accelerator
+Tube 	
+6
+	
+Solid State 	
+6
+	
+
+
+Energizer
+Tube 	
+4
+	
+Boost 	
+0
+
+-----------------------------------------------
+Artist  : The Edge (U2)
+From : oldschoolrocker
+Description : Simulates the sound of the famous U2 guitarist Edge who jump ed onto the world scene in the 1980s Channel (...)
+Rating (51) : 7.8 
+
+G9EDpatch
+{
+ Name { The Edge }
+ Comment {
+// This patch was made by oldschoolrocker
+
+}
+ PatchLevel { 74 }
+ Tempo { 150 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { A }
+ AmpA { on, HiWatt Clean, 60, 10, 80, Pre }
+ AmpB { on, BigMuff, 60, 15, 80, Pre }
+ EQ_A { on, 0, 0, 0, 0, 0, 0 }
+ EQ_B { on, 0, 0, 0, 0, 0, 0 }
+ ZnrA { on, ZNR, 2 }
+ ZnrB { on, ZNR, 5 }
+Ext  { off, 0 , 0 ,0}
+ Comp { on, RackComp, 40, 6, 7, 70 }
+ Wah { off, AutoWah, Before, 8, 8, 80 }
+ Cabi { off, small, center, Dynamic }
+ Mod { on, StereoChorus, 80, 24, 3, 70 }
+ Del { on, Echo, 8th dot, 20, 9, 50 }
+ Rev { on, Arena, 15, 90, 8, 40 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+ 1 (1, 0, 100, enabled )
+ 2 (0, 0, 255, disabled )
+ 3 (0, 0, 255, disabled )
+ 4 (0, 0, 255, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Channel B offers BigMuff type fuzz sound.
+Enjoy It
+Set-Up
+Guitar Used 	:  Gibson Les Paul Studio 	
+	
+
+
+Energizer
+Tube 	
+4
+	
+Boost 	
+4
+----------------------------------------------
+Artist  : The Edge (U2)
+From : wachimorris
+Description : Hello I am from Argentina,Here I leave this patch zoo station by U2. Please leave you more U2 (Hola (...)
+Rating (41) : 6.5
+G9EDpatch
+{
+ Name { Zoo TV }
+ Comment {
+// This patch was made by wachimorris
+
+}
+ PatchLevel { 26 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { A }
+ AmpA { on, PV Drive,Tone 15, Pre, low-mid 0, harmonics 1 }
+ AmpB { on, HK Drive, 79, 21, 1, Pre }
+ EQ_A { off, 1, 0, 10, 9, 6, 4 }
+ EQ_B { off, 5, 3, 0, -1, 0, -1 }
+ ZnrA { on, NoiseGate, 9 }
+ ZnrB { on, ZNR, 13 }
+Ext  { off, 0 , 0 ,0}
+ Comp { on, Compressor, 3, Fast, 5, 62 }
+ Wah { off, Booster, 3, 6, 8, 80 }
+ Cabi{ off, large, middle, Dynamic }
+ Mod { on, Delay, 150mS, 4, 5, 16 }
+ Del { on, Delay, 405mS, 20, 8, 40 }
+ Rev { off, Hall, 4, 30, 5, 30 }
+ Arrm { Not Assing }
+ Pedal1 {
+ 1 PV Drive,(,0,100,disabled)
+ 2 Not Assing,(0, 0, 100, disabled )
+ 3 Not Assing,(0, 0, 100, disabled )
+ 4 Not Assing,(0, 0, 100, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Guitar Used  	:  Fender Strato  	
+	
+
+
+Energizer
+Tube 	
+5
+	
+Boost 	
+5
+
+-------------------------------------------
+
+Artist  : The Edge (U2)
+From : palmdawan
+Description : Where The Street Have No Name
+Rating (74) : 8.1   
+G9EDpatch
+{
+ Name { U2 Where }
+ Comment {
+// This patch was made by palmdawan
+
+}
+ PatchLevel { 50 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  REVERB OnOff }
+ AmpSel { B }
+ AmpA { on, VOX Clean, 91, 15, 100, Post }
+ AmpB { on, Z Clean, 60, 15, 80, Pre }
+ EQ_A { on, 5, 2, 0, -7, 0, 2 }
+ EQ_B { on, 0, 2, 9, 9, 4, 7 }
+ ZnrA { on, ZNR, 13 }
+ ZnrB { on, ZNR, 15 }
+Ext  { off, 0 , 0 ,0}
+ Comp { on, Compressor, 2, Fast, 5, 80 }
+ Wah { off, SlowAttack, After, 5, 10, 100 }
+ Cabi { off, large, center, Dynamic }
+ Mod { on, Chorus, 40, 25, 7, 62 }
+ Del { on, Delay, 356mS, 80, 5, 70 }
+ Rev { on, Arena, 15, 90, 8, 60 }
+ Arrm { 0, 0, 255, 0, 0 }
+ Pedal1 {
+  1 (207, 25, 50, enabled )
+  2 (0, 0, 100, disabled )
+  3 (0, 0, 100, disabled )
+  4 (0, 0, 100, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+
+Guitar Used  	:  LTD h-101 FM  	
+Switch Position: 	:  Switch Up half way 	
+	
+
+
+Energizer
+Tube 	
+0
+	
+Boost 	
+8
+-----------------------
+Artist  : The Edge (U2)
+From : Fridge
+Description : Song=Pride I have set the pedal to switch on the booster for harmonics at song intro, and lead parts (...)
+Rating (105) : 8.1
+G9EDpatch
+{
+Name { U2Pride }
+Comment {
+// This patch was made by Fridge
+
+}
+PatchLevel { 96 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+AmpSel { B }
+AmpA { on, JC Clean, 70, 7, 82, Pre }
+AmpB { on, Z Clean, 60, 15, 80, Pre }
+EQ_A { on, 4, 0, 5, 7, 0, 0 }
+EQ_B { on, 0, 2, 9, 9, 4, 7 }
+ZnrA { on, ZNR, 4 }
+ZnrB { on, ZNR, 15 }
+Ext  { off, 0 , 0 ,0}
+Comp { on, Compressor, 3, Slow, 7, 88 }
+Wah { off, Booster, 4, 5, 10, 100 }
+Cabi { off, large, middle, Dynamic }
+Mod { on, PitchShifter, 0, 6, 10, 40 }
+Del { on, Echo, 360mS, 20, 8, 30 }
+Rev { on, Room, 11, 36, 5, 60 }
+Arrm { 0, 0, 0, 0, 0 }
+Pedal1 {
+1 (0, 0, 100, disabled )
+2 (8, 10, 10, enabled )
+3 (0, 0, 255, disabled )
+4 (0, 0, 255, disabled )
+}
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}
+---------------------------
+Artist  : The Edge (U2)
+From :
+Description : Song=BAD Through return of your amp, try also cab sim off
+Rating (57) : 8.2 
+G9EDpatch
+{
+ Name { U2 BAD }
+ Comment {
+// This patch was made by incuf
+
+}
+ PatchLevel { 88 }
+ Tempo { 120 }
+ PedalFunction { PRE-AMP CH A/B,  PRE-AMP CH A/B }
+ AmpSel { A }
+ AmpA { on, Fender Clean, 48, 15, 90, Pre }
+ AmpB { on, PV Drive, 60, 15, 30, Pre }
+ EQ_A { off, 0, 0, 0, 0, 0, 0 }
+ EQ_B { on, -1, 0, 11, 3, -3, -3 }
+ ZnrA { on, ZNR, 12 }
+ ZnrB { on, NoiseGate, 1 }
+Ext  { off, 0 , 0 ,0}
+ Comp { off, Compressor, 3, Slow, 5, 78 }
+ Wah { off, AutoWah, Before, 8, 8, 80 }
+ Cabi { on, small, center, Dynamic }
+ Mod { on, Chorus, 82, 11, 8, 54 }
+ Del { on, Delay, 460mS, 18, 0, 100 }
+ Rev { on, Hall, 10, 45, 5, 34 }
+ Arrm { 0, 0, 100, 0, 0 }
+ Pedal1 {
+ 1 (1, 0, 100, disabled )
+ 2 (0, 0, 100, disabled )
+ 3 (0, 0, 100, disabled )
+ 4 (0, 0, 100, disabled )
+ }
+Pedal2V {
+1 ( 0, 0, 100, disabled )
+2 ( 0, 0, 100, disabled )
+3 ( 0, 0, 100, disabled )
+4 ( 0, 0, 100, disabled )
+}
+Pedal2H {
+1 ( 0, 0, 50)
+2 ( 0, 0, 50)
+3 ( 0, 0, 50)
+4 ( 0, 0, 50)
+}
+}

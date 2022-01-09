@@ -1,0 +1,816 @@
+OK, what you want to do is copy the patch to the clipboard. Do this by
+selecting the patch code with your mouse and pressing cntl-c to do the
+copy. Make sure you get the entire patch... here's one from another
+thread, this is what you will want to highlight with the mouse and
+cntl-c on:
+
+G9EDpatch
+{
+Name { MetRide }
+Comment {
+}
+PatchLevel { 54 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B , MOD/EFX2 OnOff }
+AmpSel { B }
+AmpA { on , Fender Clean , 60 , 15 , 41 , Pre }
+AmpB { on , Rect Vintage , 90 , 16 , 80 , Pre }
+EQ_A { on , 0 , 0 , 0 , 0 , 0 , 0 }
+EQ_B { on , 7 , 3 , 1 , 5 , 10 , 12 }
+ZnrA { on , ZNR , 3 }
+ZnrB { on , ZNR , 5 }
+Ext { off , 80 , 80 , 0 }
+Comp { on , Compressor , 4 , Fast , 7 , 80 }
+Wah { off , Booster , 3 , 6 , 8 , 80 }
+Cabi { on , middle , center , Condenser }
+Mod { on , Air , 50 , 6 , 8 , 60 }
+Del { off , Echo , 50mS , 20 , 8 , 40 }
+Rev { on , PanningDelay , 30mS , 12 , 5 , L40 }
+Arrm { 0 , 0 , 100 , 0 , 0 }
+Pedal1 {
+1 ( 0 , 0 , 100 , disabled )
+2 ( 0 , 0 , 100 , enabled )
+3 ( 0 , 0 , 100 , disabled )
+4 ( 0 , 0 , 100 , disabled )
+}
+Pedal2V {
+1 ( 8 , 0 , 10 , disabled )
+2 ( 189 , 0 , 10 , enabled )
+3 ( 0 , 0 , 100 , disabled )
+4 ( 0 , 0 , 100 , disabled )
+}
+Pedal2H {
+1 ( 8 , 0 , 10 )
+2 ( 189 , 0 , 10 )
+3 ( 235 , 0 , 50 )
+4 ( 189 , 0 , 10 )
+}
+}
+
+Now that you've done that, open the Zoom editor if not already open.
+Under the EDIT menu select 'Paste from Clipboard'. If this option is not
+available then something was wrong when you copied the patch. You must
+make sure that the first line in the copied code is: 'G9EDpatch' or else
+the option to paste will not be available. This is why you cannot simply
+copy and paste G2 or G7 patches into the G9 editor.
+
+And that's it. The patch code should be properly translated into the editor.
+
+Also, read the documentation that came with the editor. There's a file
+called 'Special Function Operation Manual' that explains the clipboard
+function. Look over it, give it a try, and if you still can't get it to
+work after carefully reading the supplied documentation then let us know
+and we'll see if we can help you some more.
+__________________
+
+G9EDpatch 
+{
+Name { Apache }
+Comment { Apache – The Shadows
+}
+PatchLevel { 50 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B , MOD/EFX2 OnOff } 
+AmpSel { A }
+AmpA { on , Fender Clean , 60 , 15 , 80 , Pre }
+AmpB { on , Fender Clean , 60 , 15 , 80 , Pre }
+EQ_A { on , 6 , 0 , 8 , -7 , -8 , 8 }
+EQ_B { on , 6 , 0 , 8 , -7 , -8 , 8 }
+ZnrA { on , ZNR , 7 }
+ZnrB { on , ZNR , 7 }
+Ext { off , 80 , 80 , 0 } 
+Comp { on , Compressor , 6 , Slow , 5 , 80 }
+Wah { off , Tremolo , 40 , 40 , DWN5 , 80 }
+Cabi { off , small , center , Dynamic }
+Mod { on , TapeEcho , 200mS , 30 , 5 , 80 }
+Del { off , Delay , 680mS , 2 , 5 , 60 }
+Rev { on , Hall , 25 , 45 , 4 , 80 }
+Arrm { 0 , 0 , 100 , 0 , 0 }
+Pedal {
+1 ( 155 , 0 , 30 , disabled )
+2 ( 10 , 0 , 20 , disabled )
+3 ( 11 , 0 , 46 , enabled )
+4 ( 0 , 0 , 100 , disabled )
+}
+Pedal2V { 
+1 ( 8 , 0 , 10 , disabled ) 
+2 ( 189 , 0 , 10 , enabled ) 
+3 ( 0 , 0 , 100 , disabled ) 
+4 ( 0 , 0 , 100 , disabled ) 
+} 
+Pedal2H { 
+1 ( 8 , 0 , 10 ) 
+2 ( 189 , 0 , 10 ) 
+3 ( 235 , 0 , 50 ) 
+4 ( 189 , 0 , 10 ) 
+} 
+}
+
+
+G9EDpatch 
+{
+Name { Kontiki }
+Comment { Kontiki – The Shadows
+}
+PatchLevel { 50 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B , MOD/EFX2 OnOff } 
+AmpSel { A }
+AmpA { on , Fender Clean , 60 , 7 , 80 , Pre }
+AmpB { on , Fender Clean , 60 , 7 , 80 , Pre }
+EQ_A { on , 5 , 8 , 8 , -5 , -10 , -10 }
+EQ_B { on , 5 , 8 , 8 , -5 , -10 , -10 }
+ZnrA { on , NoiseGate , 3 }
+ZnrB { on , NoiseGate , 3 }
+Ext { off , 80 , 80 , 0 } 
+Comp { on , Compressor , 6 , Slow , 5 , 80 }
+Wah { off , Phaser , Before , quarterx2 , 2 , 80 }
+Cabi { off , small , center , Dynamic }
+Mod { on , TapeEcho , 380mS , 28 , 7 , 60 }
+Del { on , Echo , 250mS , 28 , 2 , 70 }
+Rev { on , Hall , 15 , 60 , 2 , 80 }
+Arrm { 0 , 0 , 100 , 0 , 0 }
+Pedal {
+1 ( 166 , 0 , 29 , disabled )
+2 ( 0 , 0 , 100 , disabled )
+3 ( 0 , 0 , 100 , disabled )
+4 ( 0 , 0 , 100 , disabled )
+}
+Pedal2V { 
+1 ( 8 , 0 , 10 , disabled ) 
+2 ( 189 , 0 , 10 , enabled ) 
+3 ( 0 , 0 , 100 , disabled ) 
+4 ( 0 , 0 , 100 , disabled ) 
+} 
+Pedal2H { 
+1 ( 8 , 0 , 10 ) 
+2 ( 189 , 0 , 10 ) 
+3 ( 235 , 0 , 50 ) 
+4 ( 189 , 0 , 10 ) 
+} 
+}
+
+
+G9EDpatch 
+{
+Name { Dance On }
+Comment { Dance On – The Shadows
+}
+PatchLevel { 50 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B , MOD/EFX2 OnOff } 
+AmpSel { A }
+AmpA { on , Fender Clean , 60 , 15 , 80 , Pre }
+AmpB { on , Fender Clean , 60 , 15 , 80 , Pre }
+EQ_A { on , 7 , 7 , 6 , 3 , -7 , 11 }
+EQ_B { on , 7 , 7 , 6 , 3 , -7 , 11 }
+ZnrA { on , ZNR , 6 }
+ZnrB { on , ZNR , 6 }
+Ext { off , 80 , 80 , 0 } 
+Comp { on , Compressor , 6 , Slow , 5 , 60 }
+Wah { off , AutoWah , Before , 8 , 8 , 80 }
+Cabi { off , small , center , Dynamic }
+Mod { off , Vibrato , 10 , 33 , 4 , 64 }
+Del { on , Echo , 175mS , 10 , 4 , 70 }
+Rev { on , Hall , 20 , 50 , 5 , 70 }
+Arrm { 0 , 0 , 100 , 0 , 0 }
+Pedal {
+1 ( 119 , 0 , 50 , disabled )
+2 ( 0 , 0 , 100 , disabled )
+3 ( 0 , 0 , 100 , enabled )
+4 ( 0 , 0 , 100 , disabled )
+}
+Pedal2V { 
+1 ( 8 , 0 , 10 , disabled ) 
+2 ( 189 , 0 , 10 , enabled ) 
+3 ( 0 , 0 , 100 , disabled ) 
+4 ( 0 , 0 , 100 , disabled ) 
+} 
+Pedal2H { 
+1 ( 8 , 0 , 10 ) 
+2 ( 189 , 0 , 10 ) 
+3 ( 235 , 0 , 50 ) 
+4 ( 189 , 0 , 10 ) 
+} 
+}
+
+G9EDpatch 
+{
+Name { YoungOne }
+Comment { The Young Ones – The Shadows
+}
+PatchLevel { 50 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B , MOD/EFX2 OnOff } 
+AmpSel { A }
+AmpA { on , Fender Clean , 80 , 16 , 80 , Pre }
+AmpB { on , Fender Clean , 80 , 16 , 80 , Pre }
+EQ_A { on , -7 , 8 , 7 , 2 , -12 , 10 }
+EQ_B { on , -7 , 8 , 7 , 2 , -12 , 10 }
+ZnrA { on , ZNR , 14 }
+ZnrB { on , ZNR , 14 }
+Ext { off , 80 , 80 , 0 } 
+Comp { on , Compressor , 5 , Slow , 6 , 80 }
+Wah { off , Booster , 2 , 7 , 8 , 96 }
+Cabi { off , small , center , Dynamic }
+Mod { on , TapeEcho , 160mS , 50 , 3 , 70 }
+Del { off , Delay , 600mS , 0 , 5 , 42 }
+Rev { on , Hall , 20 , 45 , 4 , 80 }
+Arrm { 0 , 0 , 100 , 0 , 0 }
+Pedal {
+1 ( 127 , 0 , 50 , disabled )
+2 ( 0 , 0 , 100 , disabled )
+3 ( 0 , 0 , 100 , disabled )
+4 ( 0 , 0 , 100 , disabled )
+}
+Pedal2V { 
+1 ( 8 , 0 , 10 , disabled ) 
+2 ( 189 , 0 , 10 , enabled ) 
+3 ( 0 , 0 , 100 , disabled ) 
+4 ( 0 , 0 , 100 , disabled ) 
+} 
+Pedal2H { 
+1 ( 8 , 0 , 10 ) 
+2 ( 189 , 0 , 10 ) 
+3 ( 235 , 0 , 50 ) 
+4 ( 189 , 0 , 10 ) 
+} 
+}
+
+
+G9EDpatch 
+{
+Name { FootTp }
+Comment { Foot Tapper – The Shadows
+}
+PatchLevel { 50 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B , MOD/EFX2 OnOff } 
+AmpSel { A }
+AmpA { on , Fender Clean , 60 , 15 , 80 , Pre }
+AmpB { on , Fender Clean , 60 , 15 , 80 , Pre }
+EQ_A { on , 5 , -4 , 5 , -2 , 0 , 12 }
+EQ_B { on , 5 , -4 , 5 , -2 , 0 , 12 }
+ZnrA { on , ZNR , 15 }
+ZnrB { on , ZNR , 15 }
+Ext { off , 80 , 80 , 0 } 
+Comp { off , Compressor , 3 , Slow , 7 , 88 }
+Wah { off , Booster , 3 , 2 , 9 , 76 }
+Cabi { off , middle , middle , Condenser }
+Mod { off , Chorus , 62 , 26 , 5 , 4 }
+Del { on , Delay , 180mS , 12 , 8 , 60 }
+Rev { on , Hall , 25 , 45 , 5 , 60 }
+Arrm { 0 , 0 , 100 , 0 , 0 }
+Pedal {
+1 ( 1 , 0 , 100 , disabled )
+2 ( 0 , 0 , 100 , disabled )
+3 ( 0 , 0 , 100 , disabled )
+4 ( 0 , 0 , 50 , disabled )
+}
+Pedal2V { 
+1 ( 8 , 0 , 10 , disabled ) 
+2 ( 189 , 0 , 10 , enabled ) 
+3 ( 0 , 0 , 100 , disabled ) 
+4 ( 0 , 0 , 100 , disabled ) 
+} 
+Pedal2H { 
+1 ( 8 , 0 , 10 ) 
+2 ( 189 , 0 , 10 ) 
+3 ( 235 , 0 , 50 ) 
+4 ( 189 , 0 , 10 ) 
+} 
+}
+
+
+G9EDpatch 
+{
+Name { RiderSk }
+Comment { Riders In The Sky – The Shadows
+}
+PatchLevel { 50 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B , MOD/EFX2 OnOff } 
+AmpSel { A }
+AmpA { on , Fender Clean , 60 , 15 , 80 , Pre }
+AmpB { on , Fender Clean , 60 , 15 , 80 , Pre }
+EQ_A { on , 7 , 12 , 5 , 0 , -9 , 10 }
+EQ_B { on , 7 , 12 , 5 , 0 , -9 , 10 }
+ZnrA { on , NoiseGate , 3 }
+ZnrB { on , NoiseGate , 3 }
+Ext { off , 80 , 80 , 0 } 
+Comp { off , RackComp , 40 , 3 , 8 , 80 }
+Wah { off , AutoWah , Before , 8 , 8 , 80 }
+Cabi { off , middle , middle , Dynamic }
+Mod { on , TapeEcho , 120mS , 30 , 6 , 80 }
+Del { off , Echo , 320mS , 20 , 6 , 16 }
+Rev { on , Hall , 25 , 45 , 6 , 70 }
+Arrm { 0 , 0 , 100 , 0 , 0 }
+Pedal {
+1 ( 159 , 0 , 8 , enabled )
+2 ( 0 , 0 , 100 , disabled )
+3 ( 0 , 0 , 100 , disabled )
+4 ( 0 , 0 , 100 , disabled )
+}
+Pedal2V { 
+1 ( 8 , 0 , 10 , disabled ) 
+2 ( 189 , 0 , 10 , enabled ) 
+3 ( 0 , 0 , 100 , disabled ) 
+4 ( 0 , 0 , 100 , disabled ) 
+} 
+Pedal2H { 
+1 ( 8 , 0 , 10 ) 
+2 ( 189 , 0 , 10 ) 
+3 ( 235 , 0 , 50 ) 
+4 ( 189 , 0 , 10 ) 
+} 
+}
+
+
+
+
+------------------------------------------------
+
+Welcome to the 6stringheaven.com. 
+
+   6stringheaven.com > Gear > Guitar Effects Patches > Other Pedals  
+ Shredder's Delight - G9.2tt  
+ User Name  Remember Me? 
+
+ Scali Shredder's Delight - G9.2tt 17-03-2007, 10:26 PM.
+ john aiton awesome song I spent a month... 19-03-2007, 03:39 PM.
+ Scali Nah :) 21-03-2007, 11:06 PM.
+ ZappaFan I nearly missed that track... 21-03-2007, 11:24 PM.
+ Scali Thanks... but it was just... 21-03-2007, 11:32 PM. 
+Prev     Next  
+
+  #1    17-03-2007, 10:26 PM  
+Scali     Join Date: Jul 2006
+Posts: 54 
+Rep Power: 0 
+ 
+ 
+Shredder's Delight - G9.2tt 
+
+--------------------------------------------------------------------------------
+
+Here's the patch which I titled "Shredder's Delight", which I used on a small improv back when I first got my G9.2tt: http://www.soundclick.com/bands/song...songID=3975458
+
+Just copy below the dotted line, and paste in your patch editor.
+==================
+G9EDpatch
+{
+Name { ShredDlt }
+Comment {
+}
+PatchLevel { 86 }
+Tempo { 120 }
+PedalFunction { PRE-AMP CH A/B , WAH/EFX1 OnOff }
+AmpSel { B }
+AmpA { on , DZ Clean , 50 , 15 , 84 , Pre }
+AmpB { on , ExtremeDS , 70 , 12 , 80 , Pre }
+EQ_A { on , 0 , 4 , 0 , 0 , 2 , 0 }
+EQ_B { off , -3 , 0 , 0 , -4 , -4 , -4 }
+ZnrA { on , ZNR , 3 }
+ZnrB { off , DirtyGate , 12 }
+Ext { off , 80 , 80 , 0 }
+Comp { off , Compressor , 6 , Fast , 9 , 70 }
+Wah { off , MultiWah , Before , 50 , 7 , 80 }
+Cabi { on , large , middle , Dynamic }
+Mod { on , Air , 13 , 10 , 8 , 40 }
+Del { on , Delay , 393mS , 40 , 10 , 50 }
+Rev { on , Hall , 30 , 100 , 10 , 50 }
+Arrm { 0 , 0 , 255 , 0 , 0 }
+Pedal1 {
+1 ( 1 , 0 , 100 , enabled )
+2 ( 0 , 0 , 100 , enabled )
+3 ( 0 , 0 , 100 , disabled )
+4 ( 0 , 0 , 255 , disabled )
+}
+Pedal2V {
+1 ( 30 , 0 , 49 , enabled )
+2 ( 0 , 0 , 255 , disabled )
+3 ( 0 , 0 , 255 , disabled )
+4 ( 0 , 0 , 100 , disabled )
+}
+Pedal2H {
+1 ( 189 , 0 , 10 )
+2 ( 220 , 0 , 29 )
+3 ( 0 , 0 , 255 )
+4 ( 0 , 0 , 255 )
+}
+}
+  
+
+Scali 
+View Public Profile 
+Find all posts by Scali 
+
+  
+
+
+« Previous Thread | Next Thread » 
+
+
+
+Thread Tools 
+ Show Printable Version 
+ Email this Page 
+
+Display Modes 
+ Switch to Linear Mode 
+ Switch to Hybrid Mode 
+ Threaded Mode 
+ Posting Rules  
+You may not post new threads
+You may not post replies
+You may not post attachments
+You may not edit your posts
+
+--------------------------------------------------------------------------------
+
+vB code is On
+Smilies are On
+[IMG] code is On
+HTML code is Off 
+  
+ 
+
+
+
+All times are estimated. Apparently the time now is 04:44 PM.
+
+
+Contact Us - www.6stringheaven.com - Archive - Top  
+
+
+Powered by vBulletin Version 3.6.6
+Copyright ©2000 - 2007, Jelsoft Enterprises Ltd.
+This website is entirely a work of fiction, 
+All names and characters contained within are fictional, 
+Any resemblance to actual persons either living or dead is entirely coincidental.
+ROCK ON!!!!!!!!! 
+
+Zoom G9.2tt Preset No.1: EV-Lead
+This is a preset I have created for high gain soloing. It works well with a
+humbucker, and it´s a good representation of my current taste in sounds.
+Less “jape”, no mushy reverbs or big delays anymore. Try it out, and
+tweak it to your liking.
+Preamp PV Drive
+Gain 80
+Level 60
+Bass 10 db
+Mid 1 db
+Treble 6 db
+Presence 5 db
+Comp Compressor, Sense=6
+ZNR 4
+Cabinet Mic Type=Cond
+Delay Delay, 335 ms, Feedback 5, Mix 30
+Reverb Room, Decay 10, Tone 5, Mix 40
+© 2006 Talking Hands Music
+
+---------------------------------------------
+Zoom G9.2tt Preset No.2: Twang
+This is a country-style, clean preset which I created to be used with a
+Telecaster with single-coils (like the DiMarzio Twang King). The right
+swell-pedal controls the amount of slapback-delay, the left one controls
+the volume for pedal steel-type fade-ins.
+As usual, I recommend to tweak the preset to your own taste, as the
+results also depend on your style of playing and what guitar you use.
+Preamp FD Clean
+Gain 90
+Level 80
+Bass 10 db
+Mid -6 db
+Treble 7 db
+Presence 4 db
+Comp Compressor, Sense=6
+ZNR 2
+Cabinet Mic Type=Cond
+Delay Delay, 200 ms, Feedback 5, Mix
+controlled by pedal
+Reverb Spring, Decay 20, Tone 4, Mix 60
+© 2006 Talking Hands Music
+-----------------------------------------------------------
+ 
+Forums
+Patch pour zoom G9.2tt
+Aller à la page: Précédente  1, 2, 3, 4, 5  Suivante
+      	   Guitariste.com · Accueil forum -> Pédales, effets, home-studio
+Patch pour zoom G9.2tt 
+Auteur	Message
+guitarheavy
+Special Cool utilisateur
+
+
+Inscrit le: 01 Mar 06
+Localisation: Ghyvelde (59, France)
+Posté le: 23 Jun 06, 09:33 pm   Patch pour zoom G9.2tt	
+G9EDpatch 
+{ 
+Name { HolyWars } 
+Comment { 
+} 
+PatchLevel { 72 } 
+Tempo { 120 } 
+PedalFunction { PRE-AMP CH A/B , WAH/EFX1 OnOff } 
+AmpSel { B } 
+AmpA { on , DZ Clean , 50 , 15 , 84 , Pre } 
+AmpB { on , MS Drive , 14 , 20 , 80 , Pre } 
+EQ_A { on , 0 , 4 , 0 , 0 , 2 , 0 } 
+EQ_B { on , 5 , -3 , -3 , 2 , 12 , 12 } 
+ZnrA { on , ZNR , 3 } 
+ZnrB { on , ZNR , 3 } 
+Ext { off , 80 , 80 , 0 } 
+Comp { off , Compressor , 6 , Fast , 9 , 70 } 
+Wah { on , Booster , 4 , 8 , 10 , 100 } 
+Cabi { on , large , center , Condenser } 
+Mod { on , Air , 13 , 10 , 8 , 40 } 
+Del { off , Delay , 393mS , 40 , 10 , 50 } 
+Rev { off , Hall , 30 , 100 , 10 , 50 } 
+Arrm { 0 , 0 , 255 , 0 , 0 } 
+Pedal1 { 
+1 ( 1 , 0 , 100 , enabled ) 
+2 ( 0 , 0 , 100 , enabled ) 
+3 ( 0 , 0 , 100 , disabled ) 
+4 ( 0 , 0 , 255 , disabled ) 
+} 
+Pedal2V { 
+1 ( 8 , 0 , 10 , enabled ) 
+2 ( 0 , 0 , 255 , disabled ) 
+3 ( 0 , 0 , 255 , disabled ) 
+4 ( 0 , 0 , 100 , disabled ) 
+} 
+Pedal2H { 
+1 ( 189 , 0 , 10 ) 
+2 ( 220 , 0 , 29 ) 
+3 ( 0 , 0 , 255 ) 
+4 ( 0 , 0 , 255 ) 
+} 
+}
+Revenir en haut	
+        
+
+guitarheavy
+Special Cool utilisateur
+
+
+Inscrit le: 01 Mar 06
+Localisation: Ghyvelde (59, France)
+Posté le: 23 Jun 06, 09:33 pm   Patch pour zoom G9.2tt	
+G9EDpatch 
+{ 
+Name { Blue2 } 
+Comment { 
+} 
+PatchLevel { 80 } 
+Tempo { 120 } 
+PedalFunction { PRE-AMP CH A/B , WAH/EFX1 OnOff } 
+AmpSel { A } 
+AmpA { on , MS Crunch , 60 , 15 , 80 , Pre } 
+AmpB { on , DZ Crunch , 60 , 15 , 80 , Pre } 
+EQ_A { on , 8 , 4 , 1 , -2 , -3 , -5 } 
+EQ_B { on , 6 , 3 , 1 , 1 , 0 , -2 } 
+ZnrA { on , ZNR , 4 } 
+ZnrB { on , ZNR , 5 } 
+Ext { off , 80 , 80 , 0 } 
+Comp { on , Compressor , 6 , Fast , 8 , 80 } 
+Wah { on , MultiWah , Before , 27 , 7 , 84 } 
+Cabi { on , small , center , Dynamic } 
+Mod { on , Air , 10 , 6 , 10 , 40 } 
+Del { on , AnalogDelay , 600mS , 30 , 8 , 28 } 
+Rev { on , ModernSpring , 5 , 1 , 7 , 36 } 
+Arrm { 0 , 0 , 255 , 0 , 0 } 
+Pedal1 { 
+1 ( 1 , 0 , 100 , disabled ) 
+2 ( 0 , 0 , 100 , disabled ) 
+3 ( 0 , 0 , 100 , disabled ) 
+4 ( 0 , 0 , 100 , disabled ) 
+} 
+Pedal2V { 
+1 ( 189 , 0 , 10 , disabled ) 
+2 ( 30 , 6 , 49 , disabled ) 
+3 ( 0 , 0 , 100 , disabled ) 
+4 ( 0 , 0 , 100 , disabled ) 
+} 
+Pedal2H { 
+1 ( 214 , 0 , 50 ) 
+2 ( 0 , 0 , 100 ) 
+3 ( 0 , 0 , 100 ) 
+4 ( 0 , 0 , 100 ) 
+} 
+}
+Revenir en haut	
+        
+
+guitarheavy
+Special Cool utilisateur
+
+
+Inscrit le: 01 Mar 06
+Localisation: Ghyvelde (59, France)
+Posté le: 23 Jun 06, 09:34 pm   Patch pour zoom G9.2tt	
+G9EDpatch 
+{ 
+Name { Blue3 } 
+Comment { 
+} 
+PatchLevel { 80 } 
+Tempo { 120 } 
+PedalFunction { PRE-AMP CH A/B , WAH/EFX1 OnOff } 
+AmpSel { A } 
+AmpA { on , BG Crunch , 82 , 16 , 80 , Pre } 
+AmpB { on , ENGL Drive , 68 , 10 , 80 , Pre } 
+EQ_A { on , 8 , 9 , 6 , -2 , 4 , 5 } 
+EQ_B { on , 3 , 7 , 3 , 2 , 2 , 0 } 
+ZnrA { on , ZNR , 4 } 
+ZnrB { on , ZNR , 5 } 
+Ext { off , 80 , 80 , 0 } 
+Comp { on , Limiter , 10 , 7 , 10 , 80 } 
+Wah { on , MultiWah , Before , 42 , 5 , 80 } 
+Cabi { on , large , middle , Condenser } 
+Mod { off , DynamicDelay , 360mS , 20 , 30 , -5 } 
+Del { off , Air , 10 , 6 , 8 , 40 } 
+Rev { on , TiledRoom , 20 , 10 , 8 , 32 } 
+Arrm { 0 , 0 , 255 , 0 , 0 } 
+Pedal1 { 
+1 ( 1 , 0 , 100 , disabled ) 
+2 ( 0 , 0 , 100 , disabled ) 
+3 ( 0 , 0 , 100 , disabled ) 
+4 ( 0 , 0 , 100 , disabled ) 
+} 
+Pedal2V { 
+1 ( 166 , 0 , 50 , disabled ) 
+2 ( 30 , 6 , 49 , disabled ) 
+3 ( 66 , 0 , 100 , disabled ) 
+4 ( 0 , 0 , 100 , disabled ) 
+} 
+Pedal2H { 
+1 ( 218 , 0 , 10 ) 
+2 ( 0 , 0 , 100 ) 
+3 ( 0 , 0 , 100 ) 
+4 ( 0 , 0 , 100 ) 
+} 
+}
+Revenir en haut	
+        
+
+guitarheavy
+Special Cool utilisateur
+
+
+Inscrit le: 01 Mar 06
+Localisation: Ghyvelde (59, France)
+Posté le: 23 Jun 06, 09:34 pm   Patch pour zoom G9.2tt	
+G9EDpatch 
+{ 
+Name { TeleCln } 
+Comment { 
+} 
+PatchLevel { 20 } 
+Tempo { 120 } 
+PedalFunction { PRE-AMP CH A/B , WAH/EFX1 OnOff } 
+AmpSel { B } 
+AmpA { on , Aco.Sim , 8 , 5 , 80 , Pre } 
+AmpB { on , Z Clean , 48 , 19 , 80 , Pre } 
+EQ_A { on , 3 , 0 , 0 , 10 , 12 , 9 } 
+EQ_B { on , 6 , 0 , 0 , 11 , 9 , 12 } 
+ZnrA { on , ZNR , 3 } 
+ZnrB { off , DirtyGate , 12 } 
+Ext { off , 80 , 80 , 0 } 
+Comp { on , RackComp , 30 , 6 , 7 , 80 } 
+Wah { off , Tremolo , 36 , 30 , DWN4 , 80 } 
+Cabi { on , large , center , Condenser } 
+Mod { on , Ensemble , 58 , 14 , 8 , 60 } 
+Del { on , Delay , 393mS , 20 , 6 , 20 } 
+Rev { on , Hall , 19 , 45 , 10 , 60 } 
+Arrm { 0 , 0 , 255 , 0 , 0 } 
+Pedal1 { 
+1 ( 1 , 0 , 100 , enabled ) 
+2 ( 0 , 0 , 100 , enabled ) 
+3 ( 0 , 0 , 100 , disabled ) 
+4 ( 0 , 0 , 255 , disabled ) 
+} 
+Pedal2V { 
+1 ( 10 , 0 , 50 , enabled ) 
+2 ( 0 , 0 , 255 , disabled ) 
+3 ( 0 , 0 , 255 , disabled ) 
+4 ( 0 , 0 , 100 , disabled ) 
+} 
+Pedal2H { 
+1 ( 145 , 0 , 50 ) 
+2 ( 220 , 0 , 29 ) 
+3 ( 0 , 0 , 255 ) 
+4 ( 0 , 0 , 255 ) 
+} 
+}
+Revenir en haut	
+        
+
+guitarheavy
+Special Cool utilisateur
+
+
+Inscrit le: 01 Mar 06
+Localisation: Ghyvelde (59, France)
+Posté le: 23 Jun 06, 09:34 pm   Patch pour zoom G9.2tt	
+G9EDpatch 
+{ 
+Name { S.Howe1 } 
+Comment { 
+} 
+PatchLevel { 94 } 
+Tempo { 120 } 
+PedalFunction { PRE-AMP CH A/B , Delay TAP } 
+AmpSel { B } 
+AmpA { on , MS Crunch , 100 , 15 , 67 , Pre } 
+AmpB { on , UK Blues , 68 , 14 , 80 , Pre } 
+EQ_A { on , 6 , 3 , 2 , 0 , 0 , 4 } 
+EQ_B { on , 6 , 0 , -2 , 3 , 4 , 4 } 
+ZnrA { on , ZNR , 4 } 
+ZnrB { on , ZNR , 5 } 
+Ext { off , 80 , 80 , 0 } 
+Comp { on , RackComp , 47 , 4 , 6 , 80 } 
+Wah { on , X-Wah , Before , 21 , 56 , 70 } 
+Cabi { on , middle , center , Dynamic } 
+Mod { on , Delay , 240mS , 18 , 10 , 22 } 
+Del { on , Air , 25 , 10 , 5 , 28 } 
+Rev { on , Hall , 10 , 45 , 5 , 60 } 
+Arrm { 0 , 0 , 255 , 0 , 0 } 
+Pedal1 { 
+1 ( 1 , 0 , 100 , enabled ) 
+2 ( 0 , 0 , 100 , disabled ) 
+3 ( 0 , 0 , 100 , disabled ) 
+4 ( 0 , 0 , 255 , disabled ) 
+} 
+Pedal2V { 
+1 ( 38 , 0 , 49 , enabled ) 
+2 ( 0 , 0 , 255 , disabled ) 
+3 ( 0 , 0 , 191 , disabled ) 
+4 ( 0 , 0 , 255 , disabled ) 
+} 
+Pedal2H { 
+1 ( 218 , 0 , 10 ) 
+2 ( 0 , 0 , 255 ) 
+3 ( 0 , 0 , 199 ) 
+4 ( 0 , 0 , 255 ) 
+} 
+}
+Revenir en haut	
+        
+
+acoustic91
+Custom Top utilisateur
+
+
+Inscrit le: 16 Aug 05
+Localisation: -
+Posté le: 25 Jun 06, 04:14 pm   Patch pour zoom G9.2tt	
++ les patch des british =>(tu les avais pas pris ici hein Badkenny?)
+
+http://www.thestompbox.net/forum/viewtopic.php?t=114&sid=7f4cfcaa[...]0622
+Revenir en haut	
+
+-----------------------
+G9EDpatch 
+{ 
+Name { TriAmp* } 
+Comment { 
+} 
+PatchLevel { 74 } 
+Tempo { 120 } 
+PedalFunction { PRE-AMP CH A/B , Delay TAP } 
+AmpSel { B } 
+AmpA { on , HK Clean , 50 , 15 , 80 , Pre } 
+AmpB { on , HK Drive , 80 , 16 , 67 , Pre } 
+EQ_A { on , -3 , 4 , 0 , 3 , 4 , 0 } 
+EQ_B { on , 2 , 0 , 5 , 3 , 2 , 5 } 
+ZnrA { on , ZNR , 4 } 
+ZnrB { on , ZNR , 5 } 
+Ext { off , 80 , 80 , 0 } 
+Comp { on , Compressor , 1 , Fast , 5 , 64 } 
+Wah { off , AutoWah , Before , 8 , 8 , 80 } 
+Cabi { on , small , center , Dynamic } 
+Mod { off , Chorus , 40 , 25 , 7 , 50 } 
+Del { on , AnalogDelay , 600mS , 20 , 8 , 4 } 
+Rev { on , Room , 10 , 5 , 5 , 20 } 
+Arrm { 0 , 0 , 100 , 0 , 0 } 
+Pedal1 { 
+1 ( 1 , 0 , 100 , disabled ) 
+2 ( 0 , 0 , 100 , disabled ) 
+3 ( 0 , 0 , 100 , disabled ) 
+4 ( 0 , 0 , 100 , disabled ) 
+} 
+Pedal2V { 
+1 ( 215 , 2 , 50 , enabled ) 
+2 ( 0 , 0 , 100 , disabled ) 
+3 ( 0 , 0 , 100 , disabled ) 
+4 ( 0 , 0 , 100 , disabled ) 
+} 
+Pedal2H { 
+1 ( 223 , 0 , 50 ) 
+2 ( 0 , 0 , 50 ) 
+3 ( 0 , 0 , 50 ) 
+4 ( 0 , 0 , 50 ) 
+} 
+} 
