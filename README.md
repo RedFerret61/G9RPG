@@ -1,8 +1,9 @@
 # Random Patch Generator For Zoom G9.2tt / G7.1ut effects pedal
 
-Note: There is a demonstration of G9RPG at: 
+G9RPG demo video: 
+ 
+[![G9RPG video](assets/images/g9rpg_youtube_1.png)](https://www.youtube.com/watch?v=h9C1xcCtTdo&t=59s "G9RPG video")
 
-https://youtu.be/h9C1xcCtTdo
 
 **Table of Contents**
 1. Pre-requisites
