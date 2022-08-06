@@ -20,22 +20,41 @@ G9RPG demo video:
 ## Pre-requisites
 I'm assuming you already have a Zoom G9.2tt or G7.1ut, a computer with a MIDI interface and have installed the Zoom G9ED or G7ED software.
 
-Check you have Java 5 (or later) installed:
+Check you have Java (32-bit) installed:
 
 Windows: **start > Run... > cmd**
 then type: 
 
     java -version
-    REM expect (or later) : 
-    java version "1.6.0_05...".
+    REM expect 32 bit java (no "64-Bit" in version) (or later) : 
+    java version "1.8.0_341"
+    Java(TM) SE Runtime Environment (build 1.8.0_341-b10)
+    Java HotSpot(TM) Client VM (build 25.341-b10, mixed mode)
 
-If Java is not installed then download and install Java from http://java.com/en/download/manual.jsp
-e.g. Windows XP/Vista/2000/2003 Offline * filesize: 15.18 MB
+If 32 bit Java is not installed then download and install Java from http://java.com/en/download/manual.jsp 
+
+e.g. 2022/08/06 on Microsoft Windows 10 Home on an x64-based PC download 32-bit Java (required for G9RPG). Click on:
+
+    "Windows Offline filesize: 72.73 MB"
+
+Save jre-8u341-windows-i586.exe and Open. Install. Close.
+
+    java -version
+
+    REM expect 32-bit version (or later) : 
+    java version "1.8.0_341"
+    Java(TM) SE Runtime Environment (build 1.8.0_341-b10)
+    Java HotSpot(TM) Client VM (build 25.341-b10, mixed mode)
+
+    java -d64 -version
+    REM expect Error as only need 32-bit Java to run G9RPG.
+    Error: This Java instance does not support a 64-bit JVM.
+    Please install the desired version.
 
 Mac: OS X includes the full version of Java 2SE 1.5. (or later)  **Go > Utilities > Terminal**, then type:
 
     java -version
-
+    # expect 32 bit java (no "64-Bit" in version)
 ## Downloading and Installing
 Terms and Conditions: ALL INFORMATION AND CONTENT IS PROVIDED ON AN "AS IS" BASIS. IN NO EVENT WILL I BE LIABLE TO ANY PARTY FOR ANY DIRECT, INDIRECT, SPECIAL OR OTHER CONSEQUENTIAL DAMAGES.
 
